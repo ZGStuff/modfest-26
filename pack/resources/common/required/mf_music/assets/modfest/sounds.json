@@ -1,0 +1,34 @@
+{
+	"music.dormant": {
+		"sounds": [
+			{
+				"name": "modfest:music/dormant",
+				"stream": true
+			}
+		]
+	},
+	"music.stereo.dormant": {
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/dormant",
+				"stream": true
+			}
+		]
+	},
+	"music.prologue": {
+		"sounds": [
+			{
+				"name": "modfest:music/prologue",
+				"stream": true
+			}
+		]
+	},
+	"music.stereo.prologue": {
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/prologue",
+				"stream": true
+			}
+		]
+	}
+}

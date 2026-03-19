@@ -1,0 +1,76 @@
+{
+	"team": {
+		"level": 100,
+		"includes": ["builder", "participant"],
+		"overrides": {
+			"permission_level": 4,
+			"permission_keys": {
+				"modfest.netadmin": "allow",
+				"modfest.organizer": "allow",
+				"worldedit.*": "allow",
+				"scattered_shards.*": "allow",
+				"pbwarps.warps_command": "allow",
+				"styledchat.set": "allow",
+				"styledchat.clear": "allow"
+			},
+			"command_feedback": true,
+			"entity_selectors": true,
+			"commands": {
+				".*": "allow"
+			}
+		}
+	},
+	"participant": {
+		"level": 5,
+		"includes": ["builder"],
+		"overrides": {
+			"permission_keys": {
+				"modfest.participant": "allow"
+			}
+		}
+	},
+	"builder": {
+		"level": 3,
+		"overrides": {
+			"permission_level": 2,
+			"permission_keys": {
+				"modfest.builder": "allow",
+				"worldedit.*": "allow",
+				"scattered_shards.command.award": "allow",
+				"scattered_shards.command.collect": "allow",
+				"scattered_shards.command.uncollect.*": "allow",
+				"scattered_shards.command.block": "allow",
+				"scattered_shards.modify_shard": "allow",
+				"armor_stand_editor.*": "allow",
+				"pbwarps.warps_command": "deny",
+				"styledchat.set": "deny",
+				"styledchat.clear": "deny"
+			},
+			"command_feedback": true,
+			"entity_selectors": false,
+			"commands": {
+				"gamemode.*": "allow",
+				"tp @[^e].*": "allow",
+				"fill.*": "allow",
+				"setblock.*": "allow",
+				"summon.*": "allow",
+				"rregion.*": "allow"
+			}
+		}
+	},
+	"everyone": {
+		"overrides": {
+			"permission_keys": {
+				"modfest.everyone": "allow",
+				"worldedit.*": "deny",
+				"scattered_shards.*": "deny",
+				"armor_stand_editor.*": "deny"
+			},
+			"commands": {
+				"help": "allow",
+				"polymer.*": "deny"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,335 @@
+[
+	{
+		"section": "Showcase Volunteers",
+		"disciplines": [
+			{
+				"discipline": "Volunteer Artists",
+				"titles": [
+					{
+						"title": "Soundtrack Mastering / Lead",
+						"names": [
+
+						]
+					},
+					{
+						"title": "Soundtrack Artist",
+						"names": [
+
+						]
+					},
+					{
+						"title": "Texture Artist",
+						"names": [
+
+						]
+					},
+					{
+						"title": "Branding Artist",
+						"names": [
+
+						]
+					}
+				]
+			},
+			{
+				"discipline": "Volunteer Builders",
+				"titles": [
+					{
+						"title": "Lead Architect",
+						"names": [
+
+						]
+					},
+					{
+						"title": "World Builder",
+						"names": [
+
+						]
+					}
+				]
+			},
+			{
+				"discipline": "Volunteer Developers",
+				"titles": [
+					{
+						"title": "Website Developer",
+						"names": [
+							"WorldWidePixel"
+						]
+					},
+					{
+						"title": "Platform Developer",
+						"names": [
+							"TheEpicBlock"
+						]
+					},
+					{
+						"title": "Optimization",
+						"names": [
+							"Jasmine (jaskarth)",
+							"Cortex"
+						]
+					},
+					{
+						"title": "Utils Developer",
+						"names": [
+
+						]
+					}
+				]
+			},
+			{
+				"discipline": "Testing & Feedback",
+				"titles": [
+					{
+						"title": "Debugging",
+						"names": [
+
+						]
+					},
+					{
+						"title": "Playtesting",
+						"names": [
+						]
+					}
+				]
+			},
+			{
+				"discipline": "Volunteer Team Members",
+				"titles": [
+					{
+						"title": "Showrunner",
+						"names": [
+
+						]
+					},
+					{
+						"title": "Ground Team",
+						"names": [
+
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"section": "Jam & Showcase Participants",
+		"disciplines": [
+			{
+				"discipline": "Modding Teams",
+				"titles": [
+
+				]
+			}
+		]
+	},
+	{
+		"section": "ModFest Team",
+		"disciplines": [
+			{
+				"discipline": "Team Members",
+				"titles": [
+					{
+						"title": "hi :^)",
+						"names": [
+							"2xSaiko"
+						]
+					},
+					{
+						"title": "Torch-Passer",
+						"names": [
+							"acikek"
+						]
+					},
+					{
+						"title": "Imagination reifier",
+						"names": [
+							"iridith"
+						]
+					},
+					{
+						"title": "Dark Horse Expert",
+						"names": [
+							"Ampflower"
+						]
+					},
+					{
+						"title": "Lead Architect",
+						"names": [
+							"apfelrunder"
+						]
+					},
+					{
+						"title": "Water drinker",
+						"names": [
+							"Aqua (aquaholic)"
+						]
+					},
+					{
+						"title": "Does a lotl",
+						"names": [
+							"Chai"
+						]
+					},
+					{
+						"title": "Performance Apprentice",
+						"names": [
+							"cortex"
+						]
+					},
+					{
+						"title": "Action Hero",
+						"names": [
+							"CyborgPigeon"
+						]
+					},
+					{
+						"title": "Fruit salad impressionist",
+						"names": [
+							"wishi (dreamiwishi)"
+						]
+					},
+					{
+						"title": "Old mate",
+						"names": [
+							"Falkreon"
+						]
+					},
+					{
+						"title": "Forgot they're on the team",
+						"names": [
+							"hama"
+						]
+					},
+					{
+						"title": "Mysterious nixie",
+						"names": [
+							"Infinidoge"
+						]
+					},
+					{
+						"title": "Creative double agent",
+						"names": [
+							"IThundxr"
+						]
+					},
+					{
+						"title": "lag ? crash : dream",
+						"names": [
+							"Jasmine (jaskarth)"
+						]
+					},
+					{
+						"title": "Liminal decorationist",
+						"names": [
+							"June (Khazoda)"
+						]
+					},
+					{
+						"title": "Spamton Jumpscare",
+						"names": [
+							"vriska (leo60228)"
+						]
+					},
+					{
+						"title": "Watermelon owner",
+						"names": [
+							"Lgmrszd"
+						]
+					},
+					{
+						"title": "Fox of all time (FOAT)",
+						"names": [
+							"Luna (AwakenedRedstone)"
+						]
+					},
+					{
+						"title": "Dethroned Monarch",
+						"names": [
+							"Maximum"
+						]
+					},
+					{
+						"title": "Mixmaster 2.0",
+						"names": [
+							"Nulb"
+						]
+					},
+					{
+						"title": "Occasional server admin",
+						"names": [
+							"oatmealine"
+						]
+					},
+					{
+						"title": "Benevolent Server Host",
+						"names": [
+							"Patbox"
+						]
+					},
+					{
+						"title": "Builder Of All Time (BOAT)",
+						"names": [
+							"Phanastrae"
+						]
+					},
+					{
+						"title": "Minos, constructor of websites",
+						"names": [
+							"Prospector"
+						]
+					},
+					{
+						"title": "Domain baroness",
+						"names": [
+							"Pyrrha"
+						]
+					},
+					{
+						"title": "Long-time caller",
+						"names": [
+							"Sammy"
+						]
+					},
+					{
+						"title": "Notorious Pedant",
+						"names": [
+							"Sisby folk"
+						]
+					},
+					{
+						"title": "TheEpicPlatform",
+						"names": [
+							"TheEpicBlock"
+						]
+					},
+					{
+						"title": "Virtuously Vital Vegetable",
+						"names": [
+							"Tomate0613"
+						]
+					},
+					{
+						"title": "Outlaw",
+						"names": [
+							"Trudle"
+						]
+					},
+					{
+						"title": "Fishtank Ambassador",
+						"names": [
+							"Tropheus Jay (TropheusJ)"
+						]
+					},
+					{
+						"title": "World-Level Helpful",
+						"names": [
+							"WorldWidePixel"
+						]
+					}
+				]
+			}
+		]
+	}
+]
