@@ -36,30 +36,28 @@ def main():
 				cfg.write(create_instance_config(packwiz_info, icon_key).encode("utf-8"))
 
 			with output_zip.open("mmc-pack.json", mode="w") as packjson:
-				packjson.write(create_mmc_meta(packwiz_info, packwiz_info.unsup_stable, packwiz_info.unsup_experimental).encode("utf-8"))
+				packjson.write(create_mmc_meta(packwiz_info, packwiz_info.unsup).encode("utf-8"))
 
 			art_id = constants["art_id"]
 			with output_zip.open(f"{icon_key}.png", mode="w") as f:
 				f.write(requests.get(f'https://github.com/ModFest/art/blob/v2/icon/64w/{art_id}/transparent.png?raw=true').content)
 
-			if packwiz_info.unsup_stable:
-				with output_zip.open("patches/com.unascribed.unsup.stable.json", mode="w") as patch:
-					patch.write(create_unsup_patch(packwiz_info.unsup_stable, "stable").encode("utf-8"))
+			if packwiz_info.unsup:
+				with output_zip.open("patches/com.unascribed.unsup.json", mode="w") as patch:
+					patch.write(create_unsup_patch(packwiz_info.unsup).encode("utf-8"))
 
-			with output_zip.open("patches/com.unascribed.unsup.experimental.json", mode="w") as patch:
-				patch.write(create_unsup_patch(packwiz_info.unsup_experimental, "experimental").encode("utf-8"))
 
 			with output_zip.open(".minecraft/unsup.ini", mode="w") as unsupini:
 				unsupini.write(create_unsup_ini(url, constants).encode("utf-8"))
 		print(f"Wrote to \"{prism.relative_to(generated_dir)}\"")
 
 		# Download unsup jar for server
-		unsup_jar_file = generated_dir / "cache" / f"unsup-{packwiz_info.unsup_stable}.jar"
+		unsup_jar_file = generated_dir / "cache" / f"unsup-{packwiz_info.unsup}.jar"
 		if not unsup_jar_file.exists():
 			unsup_jar_file.parent.mkdir(exist_ok=True, parents=True)
 			print(f"Downloading unsup to {unsup_jar_file.relative_to(repo_root)}")
 			with open(unsup_jar_file, "wb") as f:
-				f.write(requests.get(f"https://repo.sleeping.town/com/unascribed/unsup/{packwiz_info.unsup_stable}/unsup-{packwiz_info.unsup_stable}.jar").content)
+				f.write(requests.get(f"https://repo.sleeping.town/com/unascribed/unsup/{packwiz_info.unsup}/unsup-{packwiz_info.unsup}.jar").content)
 
 		server_zip = generated_dir / f"{packwiz_info.safe_name()}-{ext}-Server.zip"
 		with ZipFile(server_zip, "w", compression=zipfile.ZIP_DEFLATED) as output_zip:
@@ -87,11 +85,11 @@ def main():
 
 # Creates a patch file which tells prism to
 # load unsup as an agent
-def create_unsup_patch(unsup_version, ext):
+def create_unsup_patch(unsup_version):
 	patch = {
 		"formatVersion": 1,
-		"name": f"Una's Simple Updater ({ext})",
-		"uid": f"com.unascribed.unsup.{ext}",
+		"name": f"Una's Simple Updater",
+		"uid": f"com.unascribed.unsup",
 		"version": unsup_version,
 		"+agents": [
 			{
@@ -105,7 +103,7 @@ def create_unsup_patch(unsup_version, ext):
 
 # Creates the mmc-pack.json file, which stores "dependency" information for prism/multimc
 # The most important thing is that it defines the minecraft version and launcher used
-def create_mmc_meta(packwiz_info, unsup_stable, unsup_experimental):
+def create_mmc_meta(packwiz_info, unsup):
 	meta: Any = {}
 	meta["formatVersion"] = 1
 
@@ -119,17 +117,9 @@ def create_mmc_meta(packwiz_info, unsup_stable, unsup_experimental):
 
 	# Add unsup component
 	components.append({
-		"cachedName": "Una's Simple Updater (stable)",
-		"cachedVersion": unsup_stable,
-		"uid": "com.unascribed.unsup.stable"
-	})
-
-	# Add unsup component
-	components.append({
-		"cachedName": "Una's Simple Updater (experimental)",
-		"cachedVersion": unsup_experimental,
-		"disabled": True,
-		"uid": "com.unascribed.unsup.experimental"
+		"cachedName": "Una's Simple Updater",
+		"cachedVersion": unsup,
+		"uid": "com.unascribed.unsup"
 	})
 
 	# Add loader component

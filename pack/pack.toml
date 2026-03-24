@@ -10,9 +10,7 @@ hash-format = "sha256"
 [versions]
 fabric = "0.18.1"
 minecraft = "1.21.11"
-unsup = "1.1.5"
-unsup-experimental = "1.2.0-pre1"
-unsup-stable = "1.1.6"
+unsup = "1.2.0"
 
 [options]
 datapack-folder = "resources/datapack/required"

@@ -151,8 +151,7 @@ class PackwizPackInfo:
 	minecraft_version: str
 	loader: str
 	loader_version: str
-	unsup_stable: str
-	unsup_experimental: str
+	unsup: str
 
 	def safe_name(self) -> str:
 		assert self.name is not None
@@ -177,8 +176,7 @@ def parse_packwiz(pack_toml_file: Any) -> PackwizPackInfo:
 	loader = list(loaders.keys())[0]
 	loader_version = list(loaders.values())[0]
 
-	unsup_stable = version_data["unsup-stable"] if "unsup-stable" in version_data else ""
-	unsup_experimental = version_data["unsup-experimental"] if "unsup-experimental" in version_data else ""
+	unsup = version_data["unsup"] if "unsup" in version_data else ""
 
 	for v in version_data:
 		if v not in ["minecraft", "unsup", "unsup-stable", "unsup-experimental"] and v not in supported_loaders:
@@ -191,6 +189,5 @@ def parse_packwiz(pack_toml_file: Any) -> PackwizPackInfo:
 		version_data["minecraft"],
 		loader,
 		loader_version,
-		unsup_stable,
-		unsup_experimental
+		unsup
 	)
