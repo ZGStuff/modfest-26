@@ -85,7 +85,7 @@
         "permission": "modfest.organizer"
       },
       "message_formats": {
-        "chat": "<c:#8859ff>[</c>${player}<c:#8859ff>]</c> ${message}"
+        "chat": "<c:9672f3>[</c>${player}<c:9672f3>]</c> ${message}"
       },
       "formatting": {},
       "emoticons": {},
@@ -111,7 +111,7 @@
       },
       "display_name": "${default}",
       "message_formats": {
-        "chat": "<c:#feeb52>\\<</c>${player}<c:#feeb52>\\></c> ${message}"
+        "chat": "<c:ffb678>\\<</c>${player}<c:ffb678>\\></c> ${message}"
       },
       "formatting": {},
       "emoticons": {},
