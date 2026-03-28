@@ -96,6 +96,10 @@ file = "mods/badpackets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cantilever.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ears.pw.toml"
 metafile = true
 
