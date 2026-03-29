@@ -16,11 +16,11 @@
   "default": {
     "display_name": "${default}",
     "message_formats": {
-      "chat": "<${player}> ${message}",
-      "joined_the_game": "<yellow><lang:multiplayer.player.joined:'${player}'></yellow>",
-      "joined_after_name_change": "<yellow><lang:multiplayer.player.joined.renamed:'${player}':'${old_name}'></yellow>",
-      "joined_for_first_time": "<yellow><lang:multiplayer.player.joined:'${player}'></yellow>",
-      "left_game": "<yellow><lang:multiplayer.player.left:'${player}'></yellow>",
+      "chat": "<%player:head% ${player}> ${message}",
+      "joined_the_game": "<yellow><lang:multiplayer.player.joined:'%player:head% ${player}'></yellow>",
+      "joined_after_name_change": "<yellow><lang:multiplayer.player.joined.renamed:'%player:head% ${player}':'${old_name}'></yellow>",
+      "joined_for_first_time": "<yellow><lang:multiplayer.player.joined:'%player:head% ${player}'></yellow>",
+      "left_game": "<yellow><lang:multiplayer.player.left:'%player:head% ${player}'></yellow>",
       "base_death": "${default_message}",
       "advancement_task": "<lang:chat.type.advancement.task:'${player}':'${advancement}'>",
       "advancement_challenge": "<lang:chat.type.advancement.challenge:'${player}':'${advancement}'>",
@@ -29,8 +29,8 @@
       "received_team_chat": "<lang:'chat.type.team.text':'<hover\\:\\'<lang\\:chat.type.team.hover>\\'><suggest_command\\:\\'/teammsg \\'>${team}':'${displayName}':'${message}'>",
       "sent_private_message": "<gray><italic><lang:commands.message.display.outgoing:'${receiver}':'${message}'>",
       "received_private_message": "<gray><italic><lang:commands.message.display.incoming:'${sender}':'${message}'>",
-      "say_command": "[${player}] ${message}",
-      "me_command": "<lang:'chat.type.emote':'${player}':'${message}'>",
+      "say_command": "[%player:head% ${player}] ${message}",
+      "me_command": "<lang:'chat.type.emote':'%player:head% ${player}':'${message}'>",
       "pet_death": "${default_message}"
     },
     "link_style": "<underline><c:#7878ff>${link}",
