@@ -28,7 +28,7 @@ def main():
 		constants = common.jsonc_at_home(common.read_file(constants_file))
 
 		# Create prism zip
-		prism = generated_dir / f"{packwiz_info.safe_name()}-{ext}.zip"
+		prism = generated_dir / f"{packwiz_info.safe_name()}{(('-' + ext) if ext else '')}.zip"
 		with ZipFile(prism, "w", compression=zipfile.ZIP_DEFLATED) as output_zip:
 			icon_key = packwiz_info.safe_name()
 
@@ -46,9 +46,8 @@ def main():
 				with output_zip.open("patches/com.unascribed.unsup.json", mode="w") as patch:
 					patch.write(create_unsup_patch(packwiz_info.unsup).encode("utf-8"))
 
-
 			with output_zip.open(".minecraft/unsup.ini", mode="w") as unsupini:
-				unsupini.write(create_unsup_ini(url, constants).encode("utf-8"))
+				unsupini.write(create_unsup_ini(url, constants, packwiz_info).encode("utf-8"))
 		print(f"Wrote to \"{prism.relative_to(generated_dir)}\"")
 
 		# Download unsup jar for server
@@ -59,27 +58,35 @@ def main():
 			with open(unsup_jar_file, "wb") as f:
 				f.write(requests.get(f"https://repo.sleeping.town/com/unascribed/unsup/{packwiz_info.unsup}/unsup-{packwiz_info.unsup}.jar").content)
 
-		server_zip = generated_dir / f"{packwiz_info.safe_name()}-{ext}-Server.zip"
+		server_zip = generated_dir / f"{packwiz_info.safe_name()}{('-' + ext) if ext else ''}-Server.zip"
 		with ZipFile(server_zip, "w", compression=zipfile.ZIP_DEFLATED) as output_zip:
 			if packwiz_info.loader == "fabric":
-				with output_zip.open("fabric-server-launcher.jar", mode="w") as f:
+				with output_zip.open(f"fabric-server-launcher.jar", mode="w") as f:
 					f.write(requests.get(f"https://meta.fabricmc.net/v2/versions/loader/{packwiz_info.minecraft_version}/{packwiz_info.loader_version}/1.0.1/server/jar").content)
+				with output_zip.open("start.bat", mode="w") as start_out:
+					start_out.write(f"@echo off\njava -Xmx4096M -Xms4096M -javaagent:unsup.jar -jar fabric-server-launcher.jar nogui\npause".encode("utf-8"))
+				with output_zip.open("start.sh", mode="w") as start_out:
+					start_out.write(f"#!/usr/bin/env\njava -Xmx4096M -Xms4096M -javaagent:unsup.jar -jar fabric-server-launcher.jar nogui".encode("utf-8"))
 			elif packwiz_info.loader == "neoforge":
+				with output_zip.open("neoforge-installer.jar", mode="w") as f:
+					f.write(requests.get(f"https://maven.neoforged.net/releases/net/neoforged/neoforge/{packwiz_info.loader_version}/neoforge-{packwiz_info.loader_version}-installer.jar").content)
 				with output_zip.open("user_jvm_args.txt", mode="w") as jvm_args:
 					jvm_args.write("-javaagent:unsup.jar".encode("utf-8"))
-
-			with output_zip.open("start.bat", mode="w") as start_out:
-				start_out.write("@echo off\njava -Xmx4096M -Xms4096M -javaagent:unsup.jar -jar fabric-server-launcher.jar nogui".encode("utf-8"))
-
-			with output_zip.open("start.sh", mode="w") as start_out:
-				start_out.write("#!/usr/bin/env\njava -Xmx4096M -Xms4096M -javaagent:unsup.jar -jar fabric-server-launcher.jar nogui".encode("utf-8"))
+				with output_zip.open("install.bat", mode="w") as start_out:
+					start_out.write("java -jar neoforge-installer.jar --install-server".encode("utf-8"))
+				with output_zip.open("install.sh", mode="w") as start_out:
+					start_out.write("#!/usr/bin/env\njava -jar neoforge-installer.jar --install-server".encode("utf-8"))
+				with output_zip.open("start.bat", mode="w") as start_out:
+					start_out.write(f"CALL run.bat nogui".encode("utf-8"))
+				with output_zip.open("start.sh", mode="w") as start_out:
+					start_out.write(f"#!/usr/bin/env\n./run.sh nogui".encode("utf-8"))
 
 			with output_zip.open("unsup.jar", mode="w") as unsup_out:
 				with open(unsup_jar_file, "rb") as unsup_src:
 					unsup_out.write(unsup_src.read())
 
 			with output_zip.open("unsup.ini", mode="w") as unsupini:
-				unsupini.write(create_unsup_ini(url, constants).encode("utf-8"))
+				unsupini.write(create_unsup_ini(url, constants, packwiz_info).encode("utf-8"))
 		print(f"Wrote to \"{server_zip.relative_to(generated_dir)}\"")
 
 
@@ -88,8 +95,8 @@ def main():
 def create_unsup_patch(unsup_version):
 	patch = {
 		"formatVersion": 1,
-		"name": f"Una's Simple Updater",
-		"uid": f"com.unascribed.unsup",
+		"name": "unsup",
+		"uid": "com.unascribed.unsup",
 		"version": unsup_version,
 		"+agents": [
 			{
@@ -104,23 +111,17 @@ def create_unsup_patch(unsup_version):
 # Creates the mmc-pack.json file, which stores "dependency" information for prism/multimc
 # The most important thing is that it defines the minecraft version and launcher used
 def create_mmc_meta(packwiz_info, unsup):
-	meta: Any = {}
-	meta["formatVersion"] = 1
+	meta: Any = {"formatVersion": 1}
 
-	components = []
-	# Add mc component
-	components.append({
+	components = [{
 		"important": True,
 		"uid": "net.minecraft",
 		"version": packwiz_info.minecraft_version
-	})
-
-	# Add unsup component
-	components.append({
-		"cachedName": "Una's Simple Updater",
+	}, {
+		"cachedName": "unsup",
 		"cachedVersion": unsup,
 		"uid": "com.unascribed.unsup"
-	})
+	}]
 
 	# Add loader component
 	if packwiz_info.loader == "neoforge":
@@ -148,14 +149,14 @@ def create_instance_config(packwiz_info, icon_name):
 
 # Creates the unsup config file, which tells unsup where
 # to download mods from
-def create_unsup_ini(url: str, constants):
+def create_unsup_ini(url: str, constants, info):
 	colour_entries = []
-	for colour_key in unsup_colours:
-		colour_value = common.get_colour(constants, "_unsup_" + colour_key)
-		if colour_value:
-			colour_value = colour_value.replace("#", "")
-			colour_entries.append(f"{colour_key}={colour_value}")
-	return unsup_ini_template.replace("{url}", url).replace("{colours}", "\n".join(colour_entries))
+	for color_key in unsup_colors:
+		color_value = common.get_colour(constants, "_unsup_" + color_key)
+		if color_value:
+			color_value = color_value.replace("#", "")
+			colour_entries.append(f"{color_key}={color_value}")
+	return unsup_ini_template.replace("{name}", info.name).replace("{icon}", constants["icon"]).replace("{url}", url).replace("{colors}", "\n".join(colour_entries))
 
 
 instance_cfg_template = """
@@ -166,7 +167,7 @@ name={name}
 InstanceType=OneSix
 """.strip()
 
-unsup_colours = [
+unsup_colors = [
 	"background",
 	"title",
 	"subtitle",
@@ -182,8 +183,11 @@ version=1
 source_format=packwiz
 source={url}
 preset=minecraft
+[branding]
+modpack_name={name}
+icon={icon}
 [colors]
-{colours}
+{colors}
 """.strip()
 
 if __name__ == "__main__":
