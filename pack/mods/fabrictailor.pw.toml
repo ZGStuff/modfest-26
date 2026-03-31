@@ -1,0 +1,15 @@
+name = "FabricTailor"
+filename = "fabrictailor-2.5.0+26.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/sisby-folk/FabricTailor/releases/download/aaaaa/fabrictailor-2.5.0%2B26.1.jar"
+hash-format = "sha256"
+hash = "b8890d6196bfb095e2cfd09f98f9cff2dd9c1a45e408903492a73e6780d81e84"
+
+[update]
+[update.github]
+branch = "26.1"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "sisby-folk/FabricTailor"
+tag = "aaaaa"
