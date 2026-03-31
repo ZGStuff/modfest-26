@@ -88,6 +88,18 @@ file = "config/waila/waila.json5"
 file = "config/waila/waila_plugins.json5"
 
 [[files]]
+file = "mods/area-tools.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/area_lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/armorstandeditor.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/axiom.pw.toml"
 metafile = true
 
@@ -96,10 +108,22 @@ file = "mods/badpackets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/bobby.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cantilever-2.0-dev+26.1.jar"
 
 [[files]]
+file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/crunchy-crunchy-advancements.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/drogstyle.pw.toml"
 metafile = true
 
 [[files]]
@@ -108,6 +132,22 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hoofprint.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lampblack.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mcqoy.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/meret.pw.toml"
 metafile = true
 
 [[files]]
@@ -123,11 +163,31 @@ file = "mods/player-roles.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rrv.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/simple-resource-loader.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/spawnanywhere.pw.toml"
 metafile = true
 
 [[files]]
@@ -143,10 +203,22 @@ file = "mods/styledplayerlist.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/surveyor.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/switchy.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/worldedit-fabric-mc26.1-7.4.2-SNAPSHOT-dist.jar"
 
 [[files]]
 file = "mods/wthit.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
 metafile = true
 
 [[files]]

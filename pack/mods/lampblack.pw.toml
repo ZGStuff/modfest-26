@@ -1,0 +1,15 @@
+name = "lampblack"
+filename = "lampblack-1.0.0+fabric-26.1.jar"
+side = "server"
+
+[download]
+url = "https://github.com/afamiliarquiet/lampblack/releases/download/v1.0.0/lampblack-1.0.0%2Bfabric-26.1.jar"
+hash-format = "sha256"
+hash = "71fdbe53d704e5b7e9a9ad95d5cf3b389d8cb9e7f219c55064b1087aa1dc1cc4"
+
+[update]
+[update.github]
+branch = "fabric-26.1"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "afamiliarquiet/lampblack"
+tag = "v1.0.0"

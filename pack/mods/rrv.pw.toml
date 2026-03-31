@@ -1,0 +1,13 @@
+name = "Reliable Recipe Viewer"
+filename = "reliable-recipe-viewer-7.0.3+26.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5VolwT6c/versions/q1jPOkVf/reliable-recipe-viewer-7.0.3%2B26.1-fabric.jar"
+hash-format = "sha512"
+hash = "a977a28f1929c0f32c4ab59d7c7f861d307b41fb34a9daa4732a76502c46fd14f46320c370aad71cab408e7b20a700f6854f62860988cc5a50cda59a7fe668a6"
+
+[update]
+[update.modrinth]
+mod-id = "5VolwT6c"
+version = "q1jPOkVf"
