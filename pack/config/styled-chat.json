@@ -20,7 +20,7 @@
       "joined_the_game": "<green>+ ${player}",
       "joined_after_name_change": "<green>+ ${player}",
       "joined_for_first_time": "<green>+ ${player}!",
-      "left_game": "<red>- ${player}",
+      "left_game": "<red>\\- ${player}",
       "base_death": "${default_message}",
       "advancement_task": "<lang:chat.type.advancement.task:'${player}':'${advancement}'>",
       "advancement_challenge": "<lang:chat.type.advancement.challenge:'${player}':'${advancement}'>",
