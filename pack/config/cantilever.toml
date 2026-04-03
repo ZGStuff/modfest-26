@@ -23,6 +23,7 @@ activityType = "PLAYING"
 useMinecraftNicknames = true
 # A map of text to text replacements from MC -> Discord; useful for Styled Chat Emoji
 [m2dReplacements]
+	"-" = "‒"
 	"" = ":ace_heart:"
 	"" = ":agender_heart:"
 	"" = ":aroace_heart:"
@@ -57,7 +58,7 @@ useMinecraftNicknames = true
 	"" = ":ananas_good:"
 	"" = ":ananas_question:"
 	"" = ":ananas_none:"
-	"" = ":modfest_waaaaa:"
+	"" = ":modfest_waaaaa:"
 	"" = ":iapprove:"
 # A map of text to text replacements from Discord -> MC; useful for Styled Chat Emoji
 [d2mReplacements]
@@ -95,5 +96,5 @@ useMinecraftNicknames = true
 	":ananas_good:" = ""
 	":ananas_question:" = ""
 	":ananas_none:" = ""
-	":modfest_waaaaa:" = ""
+	":modfest_waaaaa:" = ""
 	":iapprove:" = ""
