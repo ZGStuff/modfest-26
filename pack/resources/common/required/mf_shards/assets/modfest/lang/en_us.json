@@ -1,12 +1,21 @@
 {
-	"shard_type.modfest.coconut.description": "Coconut Shard",
-	"shard_type.modfest.avocado.description": "Avocado Shard",
-	"shard_type.modfest.banana.description": "Banana Shard",
-	"shard_type.modfest.durian.description": "Durian Shard",
-	"shard_type.modfest.dragonfruit.description": "Dragonfruit Shard",
-	"shard_type.modfest.lychee.description": "Lychee Shard",
-	"shard_type.modfest.mango.description": "Mango Shard",
-	"shard_type.modfest.passionfruit.description": "Passionfruit Shard",
+	"item.scattered_shards.shard_tablet": "Red Backpack",
 
-	"shard_pack.cantilever.name": "Cantilever"
+	"key.scattered_shards.collection": "View Backpack",
+
+	"menu.scattered_shards.collection": "Lost Items",
+
+	"toast.scattered_shards.collected": "Lost Item Collected!",
+
+	"gui.scattered_shards.tablet.tooltip.global_collection": "%s of players have this item",
+
+	"gui.scattered_shards.tablet.click_on_a_shard": "Click on an item to the left",
+
+	"gui.scattered_shards.tablet.label.progress.started": "%s Visited",
+	"gui.scattered_shards.tablet.label.progress.total": "%s Items",
+
+	"shard_type.modfest.visitor.description": "Notebook",
+	"shard_type.modfest.bonus_1.description": "Homework",
+	"shard_type.modfest.bonus_2.description": "Love Letter",
+	"shard_type.modfest.bonus_3.description": "Buttered Toast"
 }

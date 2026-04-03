@@ -1,0 +1,13 @@
+name = "Canary"
+filename = "canary-3.0.30.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iCRO1YNs/versions/Pmqu2Rv3/canary-3.0.30.jar"
+hash-format = "sha512"
+hash = "4ebf6a1e7faee63d6434e69b7e11b2b3d2bd94a52b5a8f83231a275df6a43d3fae76091156dbc47e651b51646e60aecae48cd1712c6ed2a6f1b170a0150d7b15"
+
+[update]
+[update.modrinth]
+mod-id = "iCRO1YNs"
+version = "Pmqu2Rv3"

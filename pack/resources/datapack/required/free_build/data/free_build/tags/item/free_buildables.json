@@ -1,0 +1,17 @@
+{
+	"values": [
+		"minecraft:redstone",
+		"minecraft:redstone_torch",
+		"minecraft:redstone_block",
+		"minecraft:repeater",
+		"minecraft:comparator",
+		"minecraft:waxed_copper_bulb",
+		"minecraft:oak_button",
+		"minecraft:oak_pressure_plate",
+		"minecraft:sculk_sensor",
+		"minecraft:redstone_lamp",
+		"minecraft:lantern",
+		"minecraft:chain",
+		"minecraft:scaffolding"
+	]
+}

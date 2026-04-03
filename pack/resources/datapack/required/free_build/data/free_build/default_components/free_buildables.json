@@ -1,0 +1,11 @@
+{
+	"target": "#free_build:free_buildables",
+	"add": {
+		"minecraft:can_place_on": {
+			"blocks": "#free_build:free_build_surfaces"
+		},
+		"area_tools:can_use_in_area": {
+			"area_id": "free_build:area"
+		}
+	}
+}

@@ -60,6 +60,11 @@
     "key": "key.keyboard.unknown"
   },
   {
+    "comment": "key.hoofprint.open",
+    "translation": "key.hoofprint.open",
+    "key": "key.keyboard.m"
+  },
+  {
     "comment": "key.hotbar.1",
     "translation": "Hotbar Slot 1",
     "key": "key.keyboard.1"
@@ -247,7 +252,7 @@
   {
     "comment": "key.waila.show_overlay",
     "translation": "Show Overlay",
-    "key": "key.keyboard.unknown"
+    "key": "key.keyboard.left.alt"
   },
   {
     "comment": "key.waila.show_recipe_input",

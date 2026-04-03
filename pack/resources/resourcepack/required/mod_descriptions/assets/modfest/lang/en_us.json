@@ -1,0 +1,22 @@
+{
+	"lore.area_tools.area_creator": "A tool that allows the creation of programmable areas.",
+	"lore.area_tools.spawnpoint_setter": "A tool that allows setting the respawn point for an area.",
+	"lore.glowcase.collection_case": "A specialized bundle for specific items.",
+	"lore.glowcase.config_link_block": "A block that opens a mod configuration screen.",
+	"lore.glowcase.entity_display_block": "A block that displays an entity.",
+	"lore.glowcase.hyperlink_block": "A block that can be interacted with to open a link in your browser!",
+	"lore.glowcase.item_acceptor_block": "A block that can be interacted with to gain an item.",
+	"lore.glowcase.item_display_block": "A block that displays an item.",
+	"lore.glowcase.item_provider_block": "A block that provides an item to adventure players.",
+	"lore.glowcase.lock": "A tool that can be used to lock and unlock containers.",
+	"lore.glowcase.note": "An item that can be read when held.",
+	"lore.glowcase.outline_block": "A block that displays a wireframe.",
+	"lore.glowcase.particle_display": "A block that emits particles.",
+	"lore.glowcase.popup_block": "A block that opens text information.",
+	"lore.glowcase.recipe_block": "A block that displays a crafting recipe.",
+	"lore.glowcase.screen_block": "A block that displays an external image.",
+	"lore.glowcase.sound_block": "A block that emits sound effects.",
+	"lore.glowcase.sprite_block": "A block that displays a symbol.",
+	"lore.glowcase.tablet": "A tool used to control screens.",
+	"lore.glowcase.text_block": "A block that displays text"
+}

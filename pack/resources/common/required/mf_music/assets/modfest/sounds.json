@@ -1,32 +1,36 @@
 {
-	"music.dormant": {
+	"music.area.sash": {
+		"sounds": [
+		]
+	},
+	"music.antiquity": {
 		"sounds": [
 			{
-				"name": "modfest:music/dormant",
+				"name": "modfest:music/antiquity",
 				"stream": true
 			}
 		]
 	},
-	"music.stereo.dormant": {
+	"music.stereo.antiquity": {
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/dormant",
+				"name": "modfest:music/stereo/antiquity",
 				"stream": true
 			}
 		]
 	},
-	"music.prologue": {
+	"music.childhood_promises": {
 		"sounds": [
 			{
-				"name": "modfest:music/prologue",
+				"name": "modfest:music/childhood_promises",
 				"stream": true
 			}
 		]
 	},
-	"music.stereo.prologue": {
+	"music.stereo.childhood_promises": {
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/prologue",
+				"name": "modfest:music/stereo/childhood_promises",
 				"stream": true
 			}
 		]

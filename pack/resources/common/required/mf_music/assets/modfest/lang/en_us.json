@@ -1,6 +1,9 @@
 {
-	"modfest.music.dormant": "Nulb - Dormant",
-	"modfest.music.prologue": "WorldWidePixel - Prologue",
-	"modfest.music.stereo.dormant": "Nulb - Dormant",
-	"modfest.music.stereo.prologue": "WorldWidePixel - Prologue"
+	"modfest.music.antiquity": "cordova - Antiquity (Jukebox)",
+	"modfest.music.stereo.antiquity": "cordova - Antiquity",
+	"lore.modfest.music.antiquity": "Hint #1 - Visit a forgotten museum, then return to where you started it all.",
+
+	"modfest.music.childhood_promises": "Aethyus - Childhood Promises (Jukebox)",
+	"modfest.music.stereo.childhood_promises": "Aethyus - Childhood Promises",
+	"lore.modfest.music.childhood_promises": "Hint #15 - Explore inanimateness, then revisit a museum's gift shop."
 }
