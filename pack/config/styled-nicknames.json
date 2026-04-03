@@ -2,7 +2,7 @@
     "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
     "_comment": "Before changing anything, see https://github.com/Patbox/StyledNicknames#configuration",
     "allowByDefault": true,
-    "nicknameFormat": "${nickname}*",
+    "nicknameFormat": "${nickname}",
     "maxLength": 32,
     "changeDisplayName": true,
     "changePlayerListName": false,
