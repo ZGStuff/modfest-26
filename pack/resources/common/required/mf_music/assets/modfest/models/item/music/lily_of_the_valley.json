@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "modfest:item/music/lily_of_the_valley"
+	}
+}

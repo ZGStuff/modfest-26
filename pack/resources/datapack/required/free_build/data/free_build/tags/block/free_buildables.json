@@ -11,7 +11,7 @@
 		"minecraft:sculk_sensor",
 		"minecraft:redstone_lamp",
 		"minecraft:lantern",
-		"minecraft:chain",
+		"#minecraft:chains",
 		"minecraft:scaffolding"
 	]
 }

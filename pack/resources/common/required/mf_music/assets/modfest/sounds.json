@@ -3,34 +3,34 @@
 		"sounds": [
 		]
 	},
-	"music.antiquity": {
+	"music.lily_of_the_valley": {
 		"sounds": [
 			{
-				"name": "modfest:music/antiquity",
+				"name": "modfest:music/lily_of_the_valley",
 				"stream": true
 			}
 		]
 	},
-	"music.stereo.antiquity": {
+	"music.stereo.lily_of_the_valley": {
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/antiquity",
+				"name": "modfest:music/stereo/lily_of_the_valley",
 				"stream": true
 			}
 		]
 	},
-	"music.childhood_promises": {
+	"music.ice_cold_spades": {
 		"sounds": [
 			{
-				"name": "modfest:music/childhood_promises",
+				"name": "modfest:music/ice_cold_spades",
 				"stream": true
 			}
 		]
 	},
-	"music.stereo.childhood_promises": {
+	"music.stereo.ice_cold_spades": {
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/childhood_promises",
+				"name": "modfest:music/stereo/ice_cold_spades",
 				"stream": true
 			}
 		]

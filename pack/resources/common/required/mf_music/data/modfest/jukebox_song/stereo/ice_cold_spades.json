@@ -1,0 +1,10 @@
+{
+	"comparator_output": 1,
+	"description": {
+		"translate": "modfest.music.stereo.ice_cold_spades"
+	},
+	"length_in_seconds": 260.0,
+	"sound_event": {
+		"sound_id": "modfest:music.stereo.ice_cold_spades"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"comparator_output": 1,
+	"description": {
+		"translate": "modfest.music.lily_of_the_valley"
+	},
+	"length_in_seconds": 300.0,
+	"sound_event": {
+		"sound_id": "modfest:music.lily_of_the_valley"
+	}
+}

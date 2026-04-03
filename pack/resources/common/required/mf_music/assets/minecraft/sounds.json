@@ -3,7 +3,7 @@
 		"replace": true,
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/antiquity",
+				"name": "modfest:music/stereo/lily_of_the_valley",
 				"stream": true
 			}
 		]
@@ -12,7 +12,7 @@
 		"replace": true,
 		"sounds": [
 			{
-				"name": "modfest:music/stereo/childhood_promises",
+				"name": "modfest:music/stereo/ice_cold_spades",
 				"stream": true
 			}
 		]
