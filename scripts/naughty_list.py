@@ -6,6 +6,7 @@ from scripts import common
 
 
 def naughty_list():
+	post_playtest = False
 	submissions_comments = dict()
 	with open(common.get_repo_root() / "platform.ignore", 'r', encoding="utf8") as ignores_file:
 		lines = ignores_file.readlines()
@@ -23,6 +24,12 @@ def naughty_list():
 	submissions_url = f"https://platform.modfest.net/event/{event_id}/submissions"
 	print(submissions_url)
 	for submission in json.loads(requests.get(submissions_url).text):
+		if submission["images"]["test"] is None:
+			submissions_comments[submission["id"]] = submissions_comments[submission["id"]] + ", no test lot" if submission["id"] in submissions_comments else "no test lot"
+		if submission["images"]["claim"] is None:
+			submissions_comments[submission["id"]] = submissions_comments[submission["id"]] + ", no booth claim" if submission["id"] in submissions_comments else "no booth claim"
+		if post_playtest and submission["images"]["build"] is None:
+			submissions_comments[submission["id"]] = submissions_comments[submission["id"]] + ", booth not submitted" if submission["id"] in submissions_comments else "booth not submitted"
 		if submission["id"] not in submissions_comments:
 			continue
 		submissions[submission["id"]] = submission

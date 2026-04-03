@@ -5,9 +5,10 @@ import re
 import shutil
 import time
 import tomllib
+import subprocess
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Callable, TypedDict, TypeVar, Unpack, overload
+from typing import Any, TypedDict, TypeVar, overload
 
 
 class Ansi:
@@ -48,6 +49,20 @@ def get_repo_root() -> Path:
 	# This file should be located in <repo_root>/scripts/common.py, so the root
 	# is one directory up from this one
 	return Path(os.path.join(os.path.dirname(__file__), '..'))
+
+def get_current_git_branch():
+	if env("BRANCH_OVERRIDE", default=None):
+		return env("BRANCH_OVERRIDE")
+	try:
+		# Run the git command to get the current branch name
+		branch_name = subprocess.check_output(
+			['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
+			stderr=subprocess.STDOUT
+		).strip().decode('utf-8')
+		return branch_name
+	except subprocess.CalledProcessError as e:
+		print(f"Error occurred: {e.output.decode('utf-8')}")
+		return None
 
 
 def get_generated_dir() -> Path:

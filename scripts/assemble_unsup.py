@@ -17,9 +17,11 @@ def main():
 	generated_dir = common.get_generated_dir()
 	repo_name = os.path.basename(repo_root.resolve())
 
+	branch_name = common.get_current_git_branch()
+	test_mode = "test" in branch_name
+
 	for (url, ext) in [
-		[f"https://modfest.github.io/{repo_name}/pack.toml", "Build"],
-		[f"https://modfest.github.io/{repo_name}/test/pack.toml", "Test"],
+		[f"https://modfest.github.io/{repo_name}/pack.toml", "Test" if test_mode else ""],
 		[f"http://localhost:8080/pack.toml", "Debug"]
 	]:
 		print(f"Generating packs for {url}")
@@ -61,7 +63,7 @@ def main():
 		server_zip = generated_dir / f"{packwiz_info.safe_name()}{('-' + ext) if ext else ''}-Server.zip"
 		with ZipFile(server_zip, "w", compression=zipfile.ZIP_DEFLATED) as output_zip:
 			if packwiz_info.loader == "fabric":
-				with output_zip.open(f"fabric-server-launcher.jar", mode="w") as f:
+				with output_zip.open("fabric-server-launcher.jar", mode="w") as f:
 					f.write(requests.get(f"https://meta.fabricmc.net/v2/versions/loader/{packwiz_info.minecraft_version}/{packwiz_info.loader_version}/1.0.1/server/jar").content)
 				with output_zip.open("start.bat", mode="w") as start_out:
 					start_out.write(f"@echo off\njava -Xmx4096M -Xms4096M -javaagent:unsup.jar -jar fabric-server-launcher.jar nogui\npause".encode("utf-8"))

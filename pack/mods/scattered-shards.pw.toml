@@ -1,0 +1,15 @@
+name = "scattered-shards"
+filename = "scattered-shards-1.9.3+26.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/ModFest/scattered-shards/releases/download/1.9.3%2B26.1/scattered-shards-1.9.3%2B26.1.jar"
+hash-format = "sha256"
+hash = "60e759ec6abf4df425ce3e091ecfc9b373c28cdc9b35368412806397583f54af"
+
+[update]
+[update.github]
+branch = "26.1"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "ModFest/scattered-shards"
+tag = "1.9.3+26.1"

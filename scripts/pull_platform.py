@@ -99,6 +99,9 @@ def main():
 				lock_info["files"] = files
 
 				os.chdir(old_dir)
+        
+		# Add information for assemble_packwiz to ignore untested/unclaimed mods
+		lock_info["checks"] = {"claimed": platform_info["images"]["claim"] is not None, "tested": platform_info["images"]["test"] is not None}
 		lock_data[mod_id] = lock_info
 
 	# Write the update lock data back
