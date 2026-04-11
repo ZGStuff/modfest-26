@@ -1,0 +1,10 @@
+{
+	"comparator_output": 1,
+	"description": {
+		"translate": "modfest.music.smoking_club"
+	},
+	"length_in_seconds": 214.0,
+	"sound_event": {
+		"sound_id": "modfest:music.smoking_club"
+	}
+}

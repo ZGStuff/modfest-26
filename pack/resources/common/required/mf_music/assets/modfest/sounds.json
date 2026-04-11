@@ -34,5 +34,45 @@
 				"stream": true
 			}
 		]
+	},
+	"music.auburn_decoy": {
+		"sounds": [
+			{
+				"name": "modfest:music/auburn_decoy",
+				"stream": true
+			}
+		]
+	},
+	"music.stereo.auburn_decoy": {
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/auburn_decoy",
+				"stream": true
+			}
+		]
+	},
+	"music.smoking_club": {
+		"sounds": [
+			{
+				"name": "modfest:music/smoking_club",
+				"stream": true
+			}
+		]
+	},
+	"music.stereo.smoking_club": {
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/smoking_club",
+				"stream": true
+			}
+		]
+	},
+	"music.stereo.smoking_club_loop": {
+		"sounds": [
+			{
+				"name": "modfest:music/stereo/smoking_club_loop",
+				"stream": true
+			}
+		]
 	}
 }

@@ -1,9 +1,17 @@
 {
+	"modfest.music.auburn_decoy": "Aethyus - Auburn Decoy (Jukebox)",
+	"modfest.music.stereo.auburn_decoy": "Aethyus - Auburn Decoy",
+	"lore.modfest.music.auburn_decoy": "Hint #XX - ???",
+
 	"modfest.music.lily_of_the_valley": "lynndova - Lily of the Valley (Jukebox)",
 	"modfest.music.stereo.lily_of_the_valley": "lynndova - Lily of the Valley",
 	"lore.modfest.music.lily_of_the_valley": "Hint #XX - ???",
 
 	"modfest.music.ice_cold_spades": "lynndova - Ice Cold Spades (Jukebox)",
 	"modfest.music.stereo.ice_cold_spades": "lynndova - Ice Cold Spades",
-	"lore.modfest.music.ice_cold_spades": "Hint #XX - ???"
+	"lore.modfest.music.ice_cold_spades": "Hint #XX - ???",
+
+	"modfest.music.smoking_club": "Nulb - Anti-Smoking Smoking Club (Jukebox)",
+	"modfest.music.stereo.smoking_club": "Nulb - Anti-Smoking Smoking Club",
+	"lore.modfest.music.smoking_club": "Hint #XX - ???"
 }
