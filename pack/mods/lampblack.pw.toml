@@ -1,13 +1,13 @@
 name = "lampblack pronouns"
-filename = "lampblack-1.1.0+fabric-26.1.jar"
+filename = "lampblack-1.2.0+26.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/nFj2Gxsu/versions/6tnkz0xB/lampblack-1.1.0%2Bfabric-26.1.jar"
+url = "https://cdn.modrinth.com/data/nFj2Gxsu/versions/c5EnnOoX/lampblack-1.2.0%2B26.1.jar"
 hash-format = "sha512"
-hash = "fe1ce7231d8213ab1cc1831af463c83d7b00a2263771180cfede7cdfbd0e3f8edc239334cf464ee28c73fac62a0387d8c0d05d67bf3e3e58a8fffd8207ec1563"
+hash = "e69a2f120933bc75f17a0108ec8e6575c7fb78918adc98437263ea2807ae665cee3241ef21d0daafa9248817a27340edaefc48455dc1294cafcd45e5da0a241a"
 
 [update]
 [update.modrinth]
 mod-id = "nFj2Gxsu"
-version = "6tnkz0xB"
+version = "c5EnnOoX"

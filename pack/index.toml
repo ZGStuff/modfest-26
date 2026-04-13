@@ -254,7 +254,8 @@ file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/sodium-fabric-0.8.9-beta.4+mc26.1.1.jar"
+file = "mods/sodium.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
@@ -285,7 +286,16 @@ file = "mods/switchy.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/worldedit-fabric-mc26.1-7.4.2-SNAPSHOT-dist.jar"
+file = "mods/worldedit-client.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-cui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/worldedit-server.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/wthit.pw.toml"
@@ -302,13 +312,22 @@ file = "options.txt"
 file = "resources/common/required/mf_music/assets/minecraft/sounds.json"
 
 [[files]]
+file = "resources/common/required/mf_music/assets/modfest/items/music/auburn_decoy.json"
+
+[[files]]
 file = "resources/common/required/mf_music/assets/modfest/items/music/ice_cold_spades.json"
 
 [[files]]
 file = "resources/common/required/mf_music/assets/modfest/items/music/lily_of_the_valley.json"
 
 [[files]]
+file = "resources/common/required/mf_music/assets/modfest/items/music/smoking_club.json"
+
+[[files]]
 file = "resources/common/required/mf_music/assets/modfest/lang/en_us.json"
+
+[[files]]
+file = "resources/common/required/mf_music/assets/modfest/models/item/music/auburn_decoy.json"
 
 [[files]]
 file = "resources/common/required/mf_music/assets/modfest/models/item/music/ice_cold_spades.json"
@@ -317,7 +336,13 @@ file = "resources/common/required/mf_music/assets/modfest/models/item/music/ice_
 file = "resources/common/required/mf_music/assets/modfest/models/item/music/lily_of_the_valley.json"
 
 [[files]]
+file = "resources/common/required/mf_music/assets/modfest/models/item/music/smoking_club.json"
+
+[[files]]
 file = "resources/common/required/mf_music/assets/modfest/sounds.json"
+
+[[files]]
+file = "resources/common/required/mf_music/assets/modfest/sounds/music/auburn_decoy.ogg"
 
 [[files]]
 file = "resources/common/required/mf_music/assets/modfest/sounds/music/ice_cold_spades.ogg"
@@ -326,10 +351,25 @@ file = "resources/common/required/mf_music/assets/modfest/sounds/music/ice_cold_
 file = "resources/common/required/mf_music/assets/modfest/sounds/music/lily_of_the_valley.ogg"
 
 [[files]]
+file = "resources/common/required/mf_music/assets/modfest/sounds/music/smoking_club.ogg"
+
+[[files]]
+file = "resources/common/required/mf_music/assets/modfest/sounds/music/stereo/auburn_decoy.ogg"
+
+[[files]]
 file = "resources/common/required/mf_music/assets/modfest/sounds/music/stereo/ice_cold_spades.ogg"
 
 [[files]]
 file = "resources/common/required/mf_music/assets/modfest/sounds/music/stereo/lily_of_the_valley.ogg"
+
+[[files]]
+file = "resources/common/required/mf_music/assets/modfest/sounds/music/stereo/smoking_club.ogg"
+
+[[files]]
+file = "resources/common/required/mf_music/assets/modfest/sounds/music/stereo/smoking_club_loop.ogg"
+
+[[files]]
+file = "resources/common/required/mf_music/assets/modfest/textures/item/music/auburn_decoy.png"
 
 [[files]]
 file = "resources/common/required/mf_music/assets/modfest/textures/item/music/ice_cold_spades.png"
@@ -338,16 +378,34 @@ file = "resources/common/required/mf_music/assets/modfest/textures/item/music/ic
 file = "resources/common/required/mf_music/assets/modfest/textures/item/music/lily_of_the_valley.png"
 
 [[files]]
+file = "resources/common/required/mf_music/assets/modfest/textures/item/music/smoking_club.png"
+
+[[files]]
+file = "resources/common/required/mf_music/data/modfest/jukebox_song/auburn_decoy.json"
+
+[[files]]
 file = "resources/common/required/mf_music/data/modfest/jukebox_song/ice_cold_spades.json"
 
 [[files]]
 file = "resources/common/required/mf_music/data/modfest/jukebox_song/lily_of_the_valley.json"
 
 [[files]]
+file = "resources/common/required/mf_music/data/modfest/jukebox_song/smoking_club.json"
+
+[[files]]
+file = "resources/common/required/mf_music/data/modfest/jukebox_song/stereo/auburn_decoy.json"
+
+[[files]]
 file = "resources/common/required/mf_music/data/modfest/jukebox_song/stereo/ice_cold_spades.json"
 
 [[files]]
 file = "resources/common/required/mf_music/data/modfest/jukebox_song/stereo/lily_of_the_valley.json"
+
+[[files]]
+file = "resources/common/required/mf_music/data/modfest/jukebox_song/stereo/smoking_club.json"
+
+[[files]]
+file = "resources/common/required/mf_music/data/modfest/jukebox_song/stereo/smoking_club_loop.json"
 
 [[files]]
 file = "resources/common/required/mf_music/pack.mcmeta"
