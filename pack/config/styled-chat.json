@@ -16,7 +16,7 @@
   "default": {
     "display_name": "${default}",
     "message_formats": {
-      "chat": "<<hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm]%\">%player:head%</hover> ${player}> ${message}",
+      "chat": "<<hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm']%\">%player:head%</hover> ${player}> ${message}",
       "joined_the_game": "<green>+ ${player}",
       "joined_after_name_change": "<green>+ ${player}",
       "joined_for_first_time": "<green>+ ${player}!",
@@ -85,7 +85,7 @@
         "permission": "minecraft:modfest.organizer"
       },
       "message_formats": {
-        "chat": "<c:#9672f3>[</c><hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm]%\">%player:head%</hover> ${player}<c:#9672f3>]</c> ${message}"
+        "chat": "<c:#9672f3>[</c><hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm']%\">%player:head%</hover> ${player}<c:#9672f3>]</c> ${message}"
       },
       "formatting": {},
       "emoticons": {},
@@ -98,7 +98,7 @@
       },
       "display_name": "${default}",
       "message_formats": {
-        "chat": "<c:#ed73ba>\\<</c><hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm]%\">%player:head%</hover> ${player}<c:#ed73ba>\\></c> ${message}"
+        "chat": "<c:#ed73ba>\\<</c><hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm']%\">%player:head%</hover> ${player}<c:#ed73ba>\\></c> ${message}"
       },
       "formatting": {},
       "emoticons": {},
@@ -111,7 +111,7 @@
       },
       "display_name": "${default}",
       "message_formats": {
-        "chat": "<c:#ffb678>\\<</c><hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm]%\">%player:head%</hover> ${player}<c:#ffb678>\\></c> ${message}"
+        "chat": "<c:#ffb678>\\<</c><hover \"<gray>pronouns:</gray> %lampblack:pronouns%\n<gray>account:</gray> %player:name%\n<gray>playtime:</gray> %player:playtime [d'd'H'h'm'm']%\">%player:head%</hover> ${player}<c:#ffb678>\\></c> ${message}"
       },
       "formatting": {},
       "emoticons": {},
