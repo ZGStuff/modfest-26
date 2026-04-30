@@ -106,10 +106,12 @@ file = "config/waila/waila.json5"
 file = "config/waila/waila_plugins.json5"
 
 [[files]]
-file = "mods/area_lib-0.7.0+26.1.jar"
+file = "mods/area-tools.pw.toml"
+metafile = true
 
 [[files]]
-file = "mods/area_tools-0.1.12+26.1.jar"
+file = "mods/area_lib.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/armorstandeditor.pw.toml"
@@ -191,7 +193,8 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/map_utils-2.3.2+26.1.jar"
+file = "mods/map-utils.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/mcqoy.pw.toml"
@@ -223,6 +226,10 @@ metafile = true
 
 [[files]]
 file = "mods/player-roles.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/polymer.pw.toml"
 metafile = true
 
 [[files]]

@@ -1,6 +1,6 @@
 name = "lampblack pronouns"
 filename = "lampblack-1.3.0+26.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/nFj2Gxsu/versions/3mcOLazd/lampblack-1.3.0%2B26.1.jar"

@@ -1,6 +1,6 @@
 name = "QoMC"
 filename = "qomc-1.0.0+26.1-fabric.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/uwv2nlpZ/versions/8kN29QJe/qomc-1.0.0%2B26.1-fabric.jar"

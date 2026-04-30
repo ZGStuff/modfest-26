@@ -1,13 +1,13 @@
 name = "Meret"
-filename = "meret-0.3.0-26.1+26.1.jar"
+filename = "meret-0.4.0-26.1+26.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/bPOBctsH/versions/14o6fB5i/meret-0.3.0-26.1%2B26.1.jar"
+url = "https://cdn.modrinth.com/data/bPOBctsH/versions/TVDZm0UU/meret-0.4.0-26.1%2B26.1.jar"
 hash-format = "sha512"
-hash = "4a623517c515973c3834684926fd8d89d4525926ad6a8b57048e0b31f3108d0a97a3759936e2c9cc04d9876934445a74bcc23f2faa82409c0d163206a40f922c"
+hash = "e9f8703ad8c14622e7e3b43069a192911c6e3cefcd71c3dd6ede57538479fb4539fcbdcdf310ce2fe0d250f9352d987ee1b45b953111ead111af7b1c5cb077bc"
 
 [update]
 [update.modrinth]
 mod-id = "bPOBctsH"
-version = "14o6fB5i"
+version = "TVDZm0UU"

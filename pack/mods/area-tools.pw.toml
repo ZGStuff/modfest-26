@@ -1,0 +1,13 @@
+name = "Area Tools"
+filename = "area_tools-0.2.0+26.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u7MwgvsF/versions/4WYn4lRz/area_tools-0.2.0%2B26.1.jar"
+hash-format = "sha512"
+hash = "e8954ab30296bd1aca1f1a7ae8d7613784e8bca5dbe76920ee24f62bf89ac606e8a4fb8155e72a4339945ed4ec06ce51b7a7f6231bc70bf8409c28d967c55321"
+
+[update]
+[update.modrinth]
+mod-id = "u7MwgvsF"
+version = "4WYn4lRz"
