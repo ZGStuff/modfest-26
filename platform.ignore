@@ -6,8 +6,3 @@
 # Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/player/LocalPlayer
 #	at knot//net.thefluffycart.loe.items.LOEItems.<clinit>(LOEItems.java:24)
 letters-of-effection
-
-# kick on attempting to join server
-# [21:37:18] [Render thread/ERROR] (Minecraft) Failed to handle packet net.minecraft.network.protocol.configuration.ClientboundFinishConfigurationPacket@58083327, disconnecting
-# java.lang.IllegalStateException: Missing element ResourceKey[minecraft:damage_type / bloom_festal:brave_lance]
-bloom-festal

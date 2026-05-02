@@ -7,11 +7,11 @@
 		"files": {
 			"mods/archery-gimmicks.pw.toml": {
 				"download": {
-					"hash": "a72c90316aa0b4c7540c08aff59fad10bb80f6d357030612e17ad498b5f15d88ae145c05ff6178814fb3bf37bb91c4543bb9583da58c47bb47967975991fa16a",
+					"hash": "b35dab38ed1959a2db2069abc95abf2fd64d1c8389a9e6191c1c4b27f0b5f9f5fea9589d9374b83e5d1ea7225a6857597682e483dafb9acf4970d583de986910",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/mhMyROQo/versions/DOcyfHlY/archery-gimmicks-0.1.0%2B26.1.jar"
+					"url": "https://cdn.modrinth.com/data/mhMyROQo/versions/RyxE2Hxt/archery-gimmicks-1.0.0%2B26.1.jar"
 				},
-				"filename": "archery-gimmicks-0.1.0+26.1.jar",
+				"filename": "archery-gimmicks-1.0.0+26.1.jar",
 				"name": "Archery Gimmicks",
 				"side": "both"
 			},
@@ -26,7 +26,7 @@
 				"side": "both"
 			}
 		},
-		"key": "67e3fc6251f881f1e73d1d4ccf462f2b71504ad36fc50b17302d778d261ab2be"
+		"key": "0072455f0f810859d7bb4d94199fba7e8dab29ae221d4b5db68281f97c07b6ba"
 	},
 	"assorted-appetizers": {
 		"checks": {
@@ -331,18 +331,28 @@
 			"tested": false
 		},
 		"files": {
+			"mods/fabric-api.pw.toml": {
+				"download": {
+					"hash": "7e3c05dfde0d2c55d14ef68e4038ac1d3335ed48dfca4dbcfb29b873d698ae069ebd85f247d8a0b48437e484422549a17ff5cbbfe734d159153c3bc0e0037417",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/dZsorAUN/fabric-api-0.147.0%2B26.1.2.jar"
+				},
+				"filename": "fabric-api-0.147.0+26.1.2.jar",
+				"name": "Fabric API",
+				"side": "both"
+			},
 			"mods/peace-lily.pw.toml": {
 				"download": {
-					"hash": "cf0bedb55ef8575f9c1693b64a914e29291446c2051b1fb2f69df235ce57c74a0d24cd5199fa6c90d504bd6f8f939c5616f006716f3255a19db0626351712462",
+					"hash": "a818f36d09f3cd1641518e77d363377f0b5c45c284d8704ce128e5024397ff861bc80d643e70b4abd4d23dbfbb51780f91be3863003cf3ae1394693849e9e9a0",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/1bvUYnVb/versions/etmzoPEu/peace-lily-0.1.0%2Bfabric-26.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/1bvUYnVb/versions/lHGNZZTg/peace-lily-0.1.0%2Bfabric-26.1.1.jar"
 				},
 				"filename": "peace-lily-0.1.0+fabric-26.1.1.jar",
 				"name": "Peace Lily",
 				"side": "both"
 			}
 		},
-		"key": "a62c7000315e32e128fb46062bedcfa2261afd7a5630c6b941c6cd39d6ce9df8"
+		"key": "124f889d149c2e474a9ff2bb70a6d56a82b487c239148f7f04f2777b37a29e25"
 	},
 	"petsful": {
 		"checks": {
