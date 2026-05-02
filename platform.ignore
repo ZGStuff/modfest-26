@@ -2,9 +2,7 @@
 # Each line should contain a submission id. The script will warn you
 # if the id does not refer to a submission
 
-# NoClassDefFoundError: com/bladecoder/ink/runtime/Story$ExternalFunction (at SeriesReading.java:17)
-renmi
-
+# crash on server launch
 # Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/player/LocalPlayer
 #	at knot//net.thefluffycart.loe.items.LOEItems.<clinit>(LOEItems.java:24)
 letters-of-effection
