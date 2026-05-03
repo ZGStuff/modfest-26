@@ -36,16 +36,16 @@
 		"files": {
 			"mods/assorted-appetizers.pw.toml": {
 				"download": {
-					"hash": "8fa7121c3f956c728f3e75630b4d9e4e80c2549aa9d148fe60afb666d2051d39a9d3b98e2371f5ad98738ec01383843d5aa638e58b8d9b915e22cda4dbe20124",
+					"hash": "f5f48d0b1a55ea9fa14aea4fcab8fa4a6220938e8b20a6bd8b679d186bcbafffdffdef033e0e482f6797f127380aa4dfe060e294783e420fbe8b6e26577664a3",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/cC2HeVYB/versions/alYaJtCq/appetizers-1.2.0.jar"
+					"url": "https://cdn.modrinth.com/data/cC2HeVYB/versions/iOp9Exd5/appetizers-1.2.1.jar"
 				},
-				"filename": "appetizers-1.2.0.jar",
+				"filename": "appetizers-1.2.1.jar",
 				"name": "Assorted Appetizers",
 				"side": "both"
 			}
 		},
-		"key": "064db2fd22a2135577b8d26bd31d36b4619f7d64c9bfbbe6d9ad47e37a8de2f5"
+		"key": "aac4ab3923aa5f7d8f781dd17e64f85f68c3658f54a66efe1c2243b94cb55715"
 	},
 	"bakingsoda": {
 		"checks": {
@@ -74,16 +74,26 @@
 		"files": {
 			"mods/bloom-festal.pw.toml": {
 				"download": {
-					"hash": "a7b9f65ce6bb9cb89f2092c54195811d555b7bbfcd09fc26c1c73bf611eefda04ac0e4a3bf78097c6da40c6703a7aa5a10aba274d785a8f1ed0918182152e7a0",
+					"hash": "fb57a7f31930464d1ede7f9b7de12e2391462a66b37cba5798e0c9967da893d5f150a7505ddcf55dbff4b405611e8a6e95a6c2393b323eb3eb7783fe94280928",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/xf63Yoa7/versions/YA5q3yB3/bloom-festal-1.0.4%2Bfabric-26.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/xf63Yoa7/versions/52AZQm2T/bloom-festal-1.0.5%2Bfabric-26.1.1.jar"
 				},
-				"filename": "bloom-festal-1.0.4+fabric-26.1.1.jar",
+				"filename": "bloom-festal-1.0.5+fabric-26.1.1.jar",
 				"name": "Bloom Festal",
+				"side": "both"
+			},
+			"mods/fabric-api.pw.toml": {
+				"download": {
+					"hash": "7e3c05dfde0d2c55d14ef68e4038ac1d3335ed48dfca4dbcfb29b873d698ae069ebd85f247d8a0b48437e484422549a17ff5cbbfe734d159153c3bc0e0037417",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/dZsorAUN/fabric-api-0.147.0%2B26.1.2.jar"
+				},
+				"filename": "fabric-api-0.147.0+26.1.2.jar",
+				"name": "Fabric API",
 				"side": "both"
 			}
 		},
-		"key": "83326f4dc7ffce270e96319f67eb978aec149a39daa538ab550c6c742b7ba0e2"
+		"key": "72117685a1612b00e6d639cb19956f190fdc082acc575678f4befccf00752bde"
 	},
 	"botanicmagic": {
 		"checks": {
@@ -101,11 +111,11 @@
 		"files": {
 			"mods/chalkboard.pw.toml": {
 				"download": {
-					"hash": "799fae8b0fb0b51995a77ebfb305ad51c53154e1ece08f14dd08bcc0dfa831883f85ceec51af40437c3796a2c06279629c783c179d826b6848a73bf48effd323",
+					"hash": "c3b28c2588088591f25d30beafcdb9579e0db0212728083c5efb2867c6490b745d4cb515e8b860c82455641a97e20e6c35a0325270e2c48ba13305e6aa90f6bf",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/Azgc1ZEh/versions/RHR7u9xr/chalkboard-26.5.2.2.jar"
+					"url": "https://cdn.modrinth.com/data/Azgc1ZEh/versions/OqS2Wb5s/chalkboard-26.5.3.jar"
 				},
-				"filename": "chalkboard-26.5.2.2.jar",
+				"filename": "chalkboard-26.5.3.jar",
 				"name": "Chalkboard",
 				"side": "both"
 			},
@@ -120,7 +130,7 @@
 				"side": "both"
 			}
 		},
-		"key": "382f5ddc8c3102154d7a6f5f1899e8b3b9578cea039ac4701a6ba152edfec238"
+		"key": "24e203e890ea86894fa4bb6040e8ea6273dca3e601a4b63d0a6f37f0ff52f496"
 	},
 	"combat-toggle": {
 		"checks": {
@@ -140,6 +150,45 @@
 			}
 		},
 		"key": "943001f09256825d5e4fda3ff9c809e907005116cb72f0ff25628f46337b96e2"
+	},
+	"creeper-crush": {
+		"checks": {
+			"claimed": false,
+			"tested": false
+		},
+		"files": {
+			"mods/creeper-crush.pw.toml": {
+				"download": {
+					"hash": "f3fc5cbae196fe791ad39e9214e9f6ce0801dc9b50cdbe68c526ad0e59d368a5590e7625ead27d22cda4075d2ac5b20099d5fd682dfa0608dc56c156a2f8c8c6",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/6EQ8D192/versions/lwQPdcPY/creeper_crush-fabric-0.1.1-26.1.1.jar"
+				},
+				"filename": "creeper_crush-fabric-0.1.1-26.1.1.jar",
+				"name": "I Have a Crush on a Creeper?!?",
+				"side": "both"
+			},
+			"mods/fabric-language-kotlin.pw.toml": {
+				"download": {
+					"hash": "fa5ed2613f7216999cc0c5ddc71906f082a32b52507d7160acbdcf0eb8de12993ba302e5afde6681d025008ecc66c7533fc0c21deb672ef681b2194fb9be4245",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/2i87JpYj/fabric-language-kotlin-1.13.11%2Bkotlin.2.3.21.jar"
+				},
+				"filename": "fabric-language-kotlin-1.13.11+kotlin.2.3.21.jar",
+				"name": "Fabric Language Kotlin",
+				"side": "both"
+			},
+			"mods/unfocused.pw.toml": {
+				"download": {
+					"hash": "3f89fc313b50473a6214d5dc5d0029412b5af79cd6d7a311917f6453fbde8315e508908650a650947df40d17d9a6638c931b13282575dedf7fe4b746f159e78c",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/BvsO32QY/versions/gdt8lL3v/unfocused-fabric-0.3.1-26.1.1-sgd.jar"
+				},
+				"filename": "unfocused-fabric-0.3.1-26.1.1-sgd.jar",
+				"name": "Unfocused",
+				"side": "both"
+			}
+		},
+		"key": "2635ac0bf039cabe3f0258952dd62792047c046c92ac214c8c15a778c3f1ebda"
 	},
 	"dual-stance": {
 		"checks": {
@@ -304,16 +353,16 @@
 			},
 			"mods/honeypots.pw.toml": {
 				"download": {
-					"hash": "955fea9362af7d7bc8c264a469a2f1a860beb5681c4cfd22ceaae16b3ce50ea1de48e57b0c5d8473d5f2e63c528a710f3eeadaa1a79133ed2134c7207493275f",
+					"hash": "8dcd6a16504892616647d832001baa1cacc27ec17425719977665a045e9e0c3c209275616d36ac495a3505aa5a503bae756a23ab1100d8832fa228f123ae041d",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/Nd9XDQtQ/versions/G7vHNymm/honeypots-1.1.0.jar"
+					"url": "https://cdn.modrinth.com/data/Nd9XDQtQ/versions/HOPInpie/honeypots-1.1.1.jar"
 				},
-				"filename": "honeypots-1.1.0.jar",
+				"filename": "honeypots-1.1.1.jar",
 				"name": "HoneyPots",
 				"side": "both"
 			}
 		},
-		"key": "35fcb09a190f532fb490e0ed32f6c8bae66be751d181fb731958c668e53ad953"
+		"key": "60d2748999a0ce992e0d6a82f209c3f14d94afa8bd95b780591839a45a5d68e4"
 	},
 	"hotdognalds": {
 		"checks": {
@@ -464,28 +513,18 @@
 			"tested": false
 		},
 		"files": {
-			"mods/fabric-api.pw.toml": {
-				"download": {
-					"hash": "7e3c05dfde0d2c55d14ef68e4038ac1d3335ed48dfca4dbcfb29b873d698ae069ebd85f247d8a0b48437e484422549a17ff5cbbfe734d159153c3bc0e0037417",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/dZsorAUN/fabric-api-0.147.0%2B26.1.2.jar"
-				},
-				"filename": "fabric-api-0.147.0+26.1.2.jar",
-				"name": "Fabric API",
-				"side": "both"
-			},
 			"mods/peace-lily.pw.toml": {
 				"download": {
-					"hash": "a818f36d09f3cd1641518e77d363377f0b5c45c284d8704ce128e5024397ff861bc80d643e70b4abd4d23dbfbb51780f91be3863003cf3ae1394693849e9e9a0",
+					"hash": "6fc4b5676c7c120069d365b282360d6ff4743edbcad40d22554010ebfa798e72196f207786fb890a07dd3c61834a74333a745162ec45b3afcb50f475cefc7c99",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/1bvUYnVb/versions/lHGNZZTg/peace-lily-0.1.0%2Bfabric-26.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/1bvUYnVb/versions/TuDvfJgG/peace-lily-1.0.0%2Bfabric-26.1.1.jar"
 				},
-				"filename": "peace-lily-0.1.0+fabric-26.1.1.jar",
+				"filename": "peace-lily-1.0.0+fabric-26.1.1.jar",
 				"name": "Peace Lily",
 				"side": "both"
 			}
 		},
-		"key": "124f889d149c2e474a9ff2bb70a6d56a82b487c239148f7f04f2777b37a29e25"
+		"key": "0d13782fe7525530cfae79d731cc1542fdaa62622f56a58159c6796dd8c0aced"
 	},
 	"petsful": {
 		"checks": {
