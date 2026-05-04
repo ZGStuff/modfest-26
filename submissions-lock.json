@@ -44,16 +44,16 @@
 		"files": {
 			"mods/arbitration.pw.toml": {
 				"download": {
-					"hash": "2ee61e45730e86f972df7e9dd2fe1144f2c0e90af33d7aa6f56a0e93c3560fc0271f02048cf7653df2307948cad9aca44c5898559da3d6a59452ae4c27b39541",
+					"hash": "287f50d21b3fa36cd289f061f9d82a9795b2ed0807ac4edcafbe363fe9fa08eb5f4f4f985a9e599aa02a54bc58aed62decb404a2bf612e086ef17a7820c77d3c",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/xSJDsTRj/versions/U4uVUrWz/arbitration-1.0.0%2Bfabric-26.1.jar"
+					"url": "https://cdn.modrinth.com/data/xSJDsTRj/versions/nhNhUsOf/arbitration-1.2.1%2Bfabric-26.1.jar"
 				},
-				"filename": "arbitration-1.0.0+fabric-26.1.jar",
+				"filename": "arbitration-1.2.1+fabric-26.1.jar",
 				"name": "Arbitration",
 				"side": "both"
 			}
 		},
-		"key": "c70c80dda5fd6ee0cbf4ea6134070123016ec8701fa10b6cd740dda9abc9f3c0"
+		"key": "b1f133d8593abd221ff9edb262306c3a32e524432afe131257237f01b8fca9d8"
 	},
 	"archery-gimmicks": {
 		"checks": {
@@ -92,16 +92,16 @@
 		"files": {
 			"mods/assorted-appetizers.pw.toml": {
 				"download": {
-					"hash": "ab18ca7aa3468959817dd27138c5c566765cb91d3f359cdc2adf4785138e3a2e3d9b09a3567c03d2d70f3b642ac7cf79628ae378db63c41e75053aa936a9a86a",
+					"hash": "650f4c888d5f2096d250ccc08dbce83bfa048b126de31e62d3d07c317edcc3b9a915f94228f6048ac439062ac21e3efbc204912ed93df459aaecbaeacb258e04",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/cC2HeVYB/versions/kOBh8Coi/appetizers-1.4.1.jar"
+					"url": "https://cdn.modrinth.com/data/cC2HeVYB/versions/vbkiFCxz/appetizers-1.4.2.jar"
 				},
-				"filename": "appetizers-1.4.1.jar",
+				"filename": "appetizers-1.4.2.jar",
 				"name": "Assorted Appetizers",
 				"side": "both"
 			}
 		},
-		"key": "12442f7338d18573f4a3b3837f3c6048d286b53ba214df8bae218a2bd416b4bb"
+		"key": "407f787517fe2b52b3abae17ae636281e345cf75faf67414cac440ad370284f7"
 	},
 	"astraglossa": {
 		"checks": {
@@ -859,6 +859,35 @@
 		},
 		"files": {},
 		"key": "1d46a9e7eb63b79502c322434a3ea5fbba1dea6c7b32429daa22a69b7a97298f"
+	},
+	"one-button-doorbells": {
+		"checks": {
+			"claimed": false,
+			"tested": false
+		},
+		"files": {
+			"mods/fabric-api.pw.toml": {
+				"download": {
+					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
+				},
+				"filename": "fabric-api-0.148.0+26.1.2.jar",
+				"name": "Fabric API",
+				"side": "both"
+			},
+			"mods/one-button-doorbells.pw.toml": {
+				"download": {
+					"hash": "9c9ee33dfe81f88ff542ac11993adde714455872cfbb2018db6e5632128cd535e4fa3fcffa36ac6ff8571442a1e112b5d19067ea5312d8c26c6f70633b659b23",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/vr052JBC/versions/wch0LcUI/one-button-doorbells-0.1.0%2Bfabric-26.1.jar"
+				},
+				"filename": "one-button-doorbells-0.1.0+fabric-26.1.jar",
+				"name": "One Button Doorbells",
+				"side": "both"
+			}
+		},
+		"key": "6967bdfb4535ea8f81721cbcda8a6cffc0c67f81b467bf8f149da9e82fee37fb"
 	},
 	"peace-lily": {
 		"checks": {
