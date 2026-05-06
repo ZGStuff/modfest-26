@@ -33,19 +33,8 @@
 			"claimed": false,
 			"tested": false
 		},
-		"files": {
-			"mods/advanced-classroom-furniture.pw.toml": {
-				"download": {
-					"hash": "7136c845938bec637022ae045ed4c5945bf3a5ebcd93499de50b5f86032592f5a6aa079887ac8e71205c23b42e2173c9ca10195ed093f04e3d535a56e2108de6",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/2B2ITxoC/versions/SjGbYdfE/classroomfurniture-1.0.0.jar"
-				},
-				"filename": "classroomfurniture-1.0.0.jar",
-				"name": "Advanced Classroom Furniture",
-				"side": "both"
-			}
-		},
-		"key": "eefae8f52a1484be84ff15b52614c100dfccfb0e30b0022efb706c114361b0d6"
+		"files": {},
+		"key": "2220e8e5d93e23b3eabaaad032a5263f0db725e07b55fbe4c5f40f3a45bd2171"
 	},
 	"arbitration": {
 		"checks": {
@@ -55,11 +44,11 @@
 		"files": {
 			"mods/arbitration.pw.toml": {
 				"download": {
-					"hash": "67659e1d6fb093984bf55a3d693180ec295796dce84b615584f96fa3578bb4c4626042d7031d8ab78a73497e63dd5f7229251db64dc088ab4f4d8f4a4cd62a27",
+					"hash": "b16e2fbc7345d68019dc9ccc710ea38eedad08851ae10c1131bdda5aaaa5fe58596aa7605d0fa9d8d6608614f51c4e0abcd940501ee93686b8387a974e9f15f6",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/xSJDsTRj/versions/n92YwHaO/arbitration-1.3.5%2Bfabric-26.1.jar"
+					"url": "https://cdn.modrinth.com/data/xSJDsTRj/versions/baOWpy19/arbitration-1.3.4%2Bfabric-26.1.jar"
 				},
-				"filename": "arbitration-1.3.5+fabric-26.1.jar",
+				"filename": "arbitration-1.3.4+fabric-26.1.jar",
 				"name": "Arbitration",
 				"side": "both"
 			},
@@ -74,7 +63,7 @@
 				"side": "both"
 			}
 		},
-		"key": "2f6357ba05e938b294f030e8eddc7b7a055059c05a4fe59e746b48e69b8fda29"
+		"key": "55c3790a08b566422d85d68ca954236ad68e28fa80b4ced3d5ca44d6e37238de"
 	},
 	"archery-gimmicks": {
 		"checks": {
