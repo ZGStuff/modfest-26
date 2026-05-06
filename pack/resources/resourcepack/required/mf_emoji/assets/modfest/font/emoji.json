@@ -323,6 +323,15 @@
 			"chars": [
 				""
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "modfest:emoji/devious.png",
+			"height": 9,
+			"ascent": 8,
+			"chars": [
+				""
+			]
 		}
 	]
 }
