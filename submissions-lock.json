@@ -55,11 +55,11 @@
 		"files": {
 			"mods/arbitration.pw.toml": {
 				"download": {
-					"hash": "8b4cf5a5273061a99b869ff285c10b75ec7f95a3199e5c9591a542da4a9f884814ee4379139e452fa27a48cfb85189e7caf0792b2b1e4acbe1d3e1312a5aca5d",
+					"hash": "bd4196250b3bab0fa44f2eb0d0a66c5494dcd3ff8112a423ade2ca9296b435903ae84dc7c30ffb16b1d04d0d5ff5f69c58c22b7fd1da0746262c6da439bcf313",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/xSJDsTRj/versions/VVmcUc3i/arbitration-1.3.7%2Bfabric-26.1.jar"
+					"url": "https://cdn.modrinth.com/data/xSJDsTRj/versions/8k1Cg1TV/arbitration-1.3.9%2Bfabric-26.1.jar"
 				},
-				"filename": "arbitration-1.3.7+fabric-26.1.jar",
+				"filename": "arbitration-1.3.9+fabric-26.1.jar",
 				"name": "Arbitration",
 				"side": "both"
 			},
@@ -74,7 +74,7 @@
 				"side": "both"
 			}
 		},
-		"key": "30a1078cfc2e1524cd9a14d9f89af479731e0b360c9905fddb8d90a2fe4b32c3"
+		"key": "1ccc8d5db26e912fbdbf850e80842b8b1f4428c5da19046f738f01fa5372de4e"
 	},
 	"archery-gimmicks": {
 		"checks": {
@@ -126,8 +126,8 @@
 	},
 	"astraglossa": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/astraglossa.pw.toml": {
@@ -226,6 +226,16 @@
 			"tested": false
 		},
 		"files": {
+			"mods/berry-fantastic.pw.toml": {
+				"download": {
+					"hash": "cd5b0658b734c3b6f895e0ab352f4fd6954d170813c70c5b2ba1fcc1304fffea051dcef207e44dca0f67373872463c1f8a92b7b4d14206d94f133d1c20b33e2c",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/qhrq5l7x/versions/Vy5Qbjzd/berry-fantastic-0.1.1%2Bfabric-26.1.jar"
+				},
+				"filename": "berry-fantastic-0.1.1+fabric-26.1.jar",
+				"name": "Berry Fantastic",
+				"side": "both"
+			},
 			"mods/fabric-api.pw.toml": {
 				"download": {
 					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
@@ -242,31 +252,21 @@
 	"bloom-festal": {
 		"checks": {
 			"claimed": true,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/bloom-festal.pw.toml": {
 				"download": {
-					"hash": "fb57a7f31930464d1ede7f9b7de12e2391462a66b37cba5798e0c9967da893d5f150a7505ddcf55dbff4b405611e8a6e95a6c2393b323eb3eb7783fe94280928",
+					"hash": "362d6450230a07a1d643d4f10f773bd7ad44a2ec7d7ed428fd65bb45b861993ed0eabf12c812b8a41f3ea39795178905e3fffb0f4fd2405826cc299673693a48",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/xf63Yoa7/versions/52AZQm2T/bloom-festal-1.0.5%2Bfabric-26.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/xf63Yoa7/versions/2H6VMlF9/bloom-festal-1.0.6%2Bfabric-26.1.1.jar"
 				},
-				"filename": "bloom-festal-1.0.5+fabric-26.1.1.jar",
+				"filename": "bloom-festal-1.0.6+fabric-26.1.1.jar",
 				"name": "Bloom Festal",
-				"side": "both"
-			},
-			"mods/fabric-api.pw.toml": {
-				"download": {
-					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
-				},
-				"filename": "fabric-api-0.148.0+26.1.2.jar",
-				"name": "Fabric API",
 				"side": "both"
 			}
 		},
-		"key": "72117685a1612b00e6d639cb19956f190fdc082acc575678f4befccf00752bde"
+		"key": "16b6fa38d227449e20dd44bfb9b25563ddde04ee3c55787cd183bbe27831bcef"
 	},
 	"booyah": {
 		"checks": {
@@ -290,7 +290,7 @@
 	"botanicmagic": {
 		"checks": {
 			"claimed": false,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/botanicmagic.pw.toml": {
@@ -362,11 +362,11 @@
 		"files": {
 			"mods/creeper-crush.pw.toml": {
 				"download": {
-					"hash": "0a78ebabfa72ef30165082e4a384ca5b7a93fc5d331e11d07ec6c3ece130eb8a64421da51d0be931f7fcfab4adb025f57d5f919cceae3ae5e875fd59cf17123e",
+					"hash": "516f6df5cb6070fea4db81913eef21e1d9b2c5d4c578d9ea3d47b3af6da7049c502ac820596bc2cddbaacdcb071acaf7ad65c78a503c64f048bf38670b58c98e",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/6EQ8D192/versions/7VP6RDpS/creeper_crush-fabric-0.1.4-26.1.1-sgd.jar"
+					"url": "https://cdn.modrinth.com/data/6EQ8D192/versions/U6cGHner/creeper_crush-fabric-0.1.5-26.1.1-sgd.jar"
 				},
-				"filename": "creeper_crush-fabric-0.1.4-26.1.1-sgd.jar",
+				"filename": "creeper_crush-fabric-0.1.5-26.1.1-sgd.jar",
 				"name": "I Have a Crush on a Creeper?!?",
 				"side": "both"
 			},
@@ -391,21 +391,21 @@
 				"side": "both"
 			}
 		},
-		"key": "8e6176095897062ae73af14fcaeeaf521bb9a90f5062e1d674595e826f824678"
+		"key": "689bad1f77ab7d80c9faaf3f037ff2cba7707f4ab508a84a38e9a0831a5c7afd"
 	},
 	"dual-stance": {
 		"checks": {
 			"claimed": true,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/dual-stance.pw.toml": {
 				"download": {
-					"hash": "b9a43e463c9dc30f7a661741d59434531aca5b7c72c961146617bffa5963574fa022d366411937ef88a35160584e82f1c2b506d596f85808d0f9b0196a665cab",
+					"hash": "ee1ba7ab8912d18a05f3367e2b547938ecaaa0d69ad873d89c43030120c0c24d835d037370273397aa41637a2d398f69a01a9dfdd5341284c505e9ce065da4a4",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/zxojGU53/dual-stance-0.4.2.jar"
+					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/dceSO2Rx/dual-stance-0.4.3.jar"
 				},
-				"filename": "dual-stance-0.4.2.jar",
+				"filename": "dual-stance-0.4.3.jar",
 				"name": "Dual Stance",
 				"side": "both"
 			},
@@ -420,7 +420,7 @@
 				"side": "both"
 			}
 		},
-		"key": "107a07843ad72baf365f037d37dc3a9591285fb666866d121006375717d148ce"
+		"key": "94d9e33f40b34afbdb526cee346fcba950b14f6cde7ab13ca42eeb42c8d242ef"
 	},
 	"enamel": {
 		"checks": {
@@ -527,16 +527,16 @@
 		"files": {
 			"mods/flowers-galore.pw.toml": {
 				"download": {
-					"hash": "916772ba585d629f20fdffe2746f8532c671a9381c82361c72bf8c453aab144c1eb84b433219df16a14823e5ec72e77e189ec0918d0275dee12ecfa9708a4f20",
+					"hash": "7b53eed6d34e356c2413d77d0f5bd2586b4f0d16d6fd1f73f53c636ad9b957bfb42edf5643ed1fe49f407f52e23d0b4716cc338c559a698c56c879f1b18610e1",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/5Tp9paFi/versions/bKUtwZcv/flowers-galore-1.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/5Tp9paFi/versions/PNpWIlQz/flowers-galore-1.1.2.jar"
 				},
-				"filename": "flowers-galore-1.1.1.jar",
+				"filename": "flowers-galore-1.1.2.jar",
 				"name": "Flowers Galore!",
 				"side": "both"
 			}
 		},
-		"key": "5983bc9d2ce5103d4120ac732a447fee934d0a9c070a3c0078081d68da71805d"
+		"key": "e71e61822dba705183f13cf64201c48712d84b834ffab1abd1bcae9c7806d4b0"
 	},
 	"grappling-hooke": {
 		"checks": {
@@ -833,18 +833,28 @@
 			"tested": false
 		},
 		"files": {
+			"mods/fabric-api.pw.toml": {
+				"download": {
+					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
+				},
+				"filename": "fabric-api-0.148.0+26.1.2.jar",
+				"name": "Fabric API",
+				"side": "both"
+			},
 			"mods/lovely-bites.pw.toml": {
 				"download": {
-					"hash": "b2a8cf3d841ee0e3f0a7dc714b33845f7237543567677cda184c1197b9acc53eae23c0597b7517e4f5113f57745af83127e60ad2e541ca6703c7b2e34d83df08",
+					"hash": "3e18ab50af81867007a0cd24ef035e2620af03b72b41389229cad896a31547b0662df2e7a14f98b9d97ef8d606381ba0be1c4889b43c3fc9e26b4160ddaea03e",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/D7D5bEMP/versions/3cEnl4Hl/lovely_bites-0.3.0-26.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/D7D5bEMP/versions/7Ggonzm9/lovely_bites-0.3.1-26.1.1.jar"
 				},
-				"filename": "lovely_bites-0.3.0-26.1.1.jar",
+				"filename": "lovely_bites-0.3.1-26.1.1.jar",
 				"name": "Lovely Bites",
 				"side": "both"
 			}
 		},
-		"key": "3aa24d23daf6a98f940df2ee6c37e199fb9c5a0369b2592e210dff1ce8d49e55"
+		"key": "5a7dc3cc0f0df004dd0fd394d38601f15ab0ebfbc1397211657e9dbd7c97c124"
 	},
 	"magical-allayship": {
 		"checks": {
@@ -1007,16 +1017,16 @@
 		"files": {
 			"mods/one-button-doorbells.pw.toml": {
 				"download": {
-					"hash": "40f33b5965d1b9cc6caf18801591aeca22a9e0fbfa37f86c40e214dce72294d30549cc1c9a0e4af4ceacb3608cd3057a121dc6b795e8420e62747cf04bf765cb",
+					"hash": "0bda6d6920a5f5fa7894610d74b73eeff23ba2b7264683089516655b3b3f83cc79652dca9a4f2a969f1446204fb51e903ca6cf1e88a25547eb3ae8a08b62f969",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/vr052JBC/versions/b8f0sO4G/one-button-doorbells-0.1.3%2Bfabric-26.1.jar"
+					"url": "https://cdn.modrinth.com/data/vr052JBC/versions/oPkjvJNS/one-button-doorbells-0.1.3%20Modfest%2Bfabric-26.1.jar"
 				},
-				"filename": "one-button-doorbells-0.1.3+fabric-26.1.jar",
+				"filename": "one-button-doorbells-0.1.3 Modfest+fabric-26.1.jar",
 				"name": "One Button Doorbells",
 				"side": "both"
 			}
 		},
-		"key": "510918e254eb8a1bdeebb16839028abf01c159abaa0c53fc4f2533b51bbd208b"
+		"key": "3f32df818e2a1d053981ea70098ee31d587779c81d51834148dafe638b385162"
 	},
 	"peace-lily": {
 		"checks": {
@@ -1126,7 +1136,7 @@
 	},
 	"psithurism": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": false
 		},
 		"files": {
@@ -1238,16 +1248,16 @@
 			},
 			"mods/slime-time.pw.toml": {
 				"download": {
-					"hash": "34d9521cd5591c204cbb5ec8519c20ab7eb79bca2d069f890e62c3b1216d77b6d4040fd47e5812739c909c48460bb989d33f39cd76ae231b5b9ab4bc35cef1e4",
+					"hash": "0337ef1fd83d54d37853b4e4af1b7c0e912433a8949ab4180fe77378e93039796f4212139642fd8ad6aa6a2588742f989693cebbab928e6ed916f4a5e8ad18f7",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/RRsJmoGM/versions/hXqCrNGK/slime-time-1.1.2%2B26.1.2.jar"
+					"url": "https://cdn.modrinth.com/data/RRsJmoGM/versions/IqNv3HLe/slime-time-1.1.3%2B26.1.2.jar"
 				},
-				"filename": "slime-time-1.1.2+26.1.2.jar",
+				"filename": "slime-time-1.1.3+26.1.2.jar",
 				"name": "Slime Time",
 				"side": "both"
 			}
 		},
-		"key": "a04f120455846dbcb57799e137b43cc7800440727d99e6d2bb407138bb9fdead"
+		"key": "a9fcae374228a5ed1010e04d18c1a3fa2ac23f7c82521a4e561970cc534ed002"
 	},
 	"starbond": {
 		"checks": {
@@ -1306,11 +1316,11 @@
 			},
 			"mods/street-art.pw.toml": {
 				"download": {
-					"hash": "3fdeee0d42268746fb3cc35e30d69bdd7c0f752c942349685923044ed1266dbc8256871f49384a81196f10ca9d1dace92e9438d367afe33bbd083e1eadc500ed",
+					"hash": "efdc2cc77daabd53fdeed63eb8e9027b409e62cce561b8314c7cfba0ca4e4cb57f1ed9fd38b3772554533e052f88ca54fc2341b79da432d5e488e5b790fedfd0",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/TuN3Wgdp/street_art-1.0.2.jar"
+					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/Aazxss2E/street_art-1.0.3.jar"
 				},
-				"filename": "street_art-1.0.2.jar",
+				"filename": "street_art-1.0.3.jar",
 				"name": "Street Art",
 				"side": "both"
 			},
@@ -1325,7 +1335,7 @@
 				"side": "both"
 			}
 		},
-		"key": "8b58eb84a6c2feeede8a3d9056cca1b0492798aa24ee236f45146a06cec42b8c"
+		"key": "dd1a85e7a46786196a8d3a2b5b87ac42b64448561622125bba83b96a317b8a2d"
 	},
 	"syncope-synecdoche": {
 		"checks": {
