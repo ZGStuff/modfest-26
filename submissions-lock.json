@@ -276,16 +276,16 @@
 		"files": {
 			"mods/booyah.pw.toml": {
 				"download": {
-					"hash": "289679f783a306e4390c3fe628efd8e0c4196e619c4134ce9b9d9bd1efd9238613ae896cb87c11175a6b432a09eb0d9805dc9646e2f12f216ec391457c07d7a5",
+					"hash": "02f9fa7e562d3dd7772f54c7bb4dc6f4b999e5ac1358adaded33ab66ef2c310116dec29ac8903a1ddd493467735c63a4ad961ca605d1416ab43e252315f77a32",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/aKgA3BHj/versions/70fHyPzb/booyah-0.0.2.jar"
+					"url": "https://cdn.modrinth.com/data/aKgA3BHj/versions/O57Zh8qx/booyah-0.0.3.jar"
 				},
-				"filename": "booyah-0.0.2.jar",
+				"filename": "booyah-0.0.3.jar",
 				"name": "Booyah!",
 				"side": "both"
 			}
 		},
-		"key": "c85ce63b100e382094f4951a6022c9362f59752aa8ecd615be3dc5eea10ca6fd"
+		"key": "081a923f1cfe25ddee140524d25e34451c533216a26dd074653e49790604e2a4"
 	},
 	"botanicmagic": {
 		"checks": {
