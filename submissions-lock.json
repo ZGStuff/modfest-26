@@ -289,7 +289,7 @@
 	},
 	"botanicmagic": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -492,8 +492,8 @@
 	},
 	"etaerio-eaterie": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/etaerio-eaterie.pw.toml": {
@@ -522,7 +522,7 @@
 	"flowers-galore": {
 		"checks": {
 			"claimed": false,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/flowers-galore.pw.toml": {
@@ -950,16 +950,16 @@
 		"files": {
 			"mods/mugann.pw.toml": {
 				"download": {
-					"hash": "4f21e6edc824b1370c9aed67e0f90518855362bf9db7c5e2b0692111fcf6c39b1d2797723c8507f39d3ae129bd7293d3029f7ffd64d1db486c257e2fba1f0866",
+					"hash": "8058edbcf3df2803dbe1bad870b16b9cd63feab7c6d092750b752c9830df319880b7a53f7152056cefc22f46e2c50714e33d36f1994eb77b5cb69736f28fbef4",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/9WfB1ZDW/versions/Nydbjn1R/mugann-1.0.8.jar"
+					"url": "https://cdn.modrinth.com/data/9WfB1ZDW/versions/H2SVLLTY/mugann-1.0.9.jar"
 				},
-				"filename": "mugann-1.0.8.jar",
+				"filename": "mugann-1.0.9.jar",
 				"name": "Mugann",
 				"side": "both"
 			}
 		},
-		"key": "3f6dcc4ac6bd27a07a5b9b07637c21165e7b3238790310fb08710c17bdbaf80a"
+		"key": "712b04e4c63b5d17ceb1f621e35d2c69f3fbae96ffb2f1afbce51e6b7b335865"
 	},
 	"off-the-shelf": {
 		"checks": {
@@ -1219,16 +1219,16 @@
 			},
 			"mods/scriboodle.pw.toml": {
 				"download": {
-					"hash": "c1c1a6fe6b7136a222324a22396055ea3ead26ab26a409478ab1dc804b75359eb6e0d424cf2bd6550e18256f1842ee1d562167389254f8ab9d2ce097170ba9ee",
+					"hash": "ca80904dd70d94ddfd18b0c6a06d736b2b799b08cbf06b72651ac9814af2789f4b8340a22014cc00365ee4980f2f4aeb3a3131271b0834125c145da1a7cd1c0f",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/1KTbgBgQ/versions/fTOg4YbB/scriboodle-0.2.2.jar"
+					"url": "https://cdn.modrinth.com/data/1KTbgBgQ/versions/WATOJE5m/scriboodle-0.2.4.jar"
 				},
-				"filename": "scriboodle-0.2.2.jar",
+				"filename": "scriboodle-0.2.4.jar",
 				"name": "Scriboodle",
 				"side": "both"
 			}
 		},
-		"key": "3f39ae6748df5396acedd221a90c770a47cd26ba9517937066c5f7db1ec697fd"
+		"key": "32121aec2733c41d5c142878834d1279f50bb62781f01bec35cf6bbf8355f28a"
 	},
 	"slime-time": {
 		"checks": {
