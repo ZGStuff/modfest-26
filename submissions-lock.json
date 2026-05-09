@@ -193,8 +193,8 @@
 	},
 	"batoru": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/batoru.pw.toml": {
@@ -469,11 +469,11 @@
 		"files": {
 			"mods/ensemble-mod.pw.toml": {
 				"download": {
-					"hash": "ebf76b7948e75cdcbf28c20a3c6ad43ea2dd10e6a36dee1223881ff68bb16616076bd09f06f52defbcb9cc39aab66cb46d40cfc65363c896517715536345b0be",
+					"hash": "28d043f9de4164a327b660184efdb0f21282daf9e19b414bf830e8f385fbfe83e076608897bcc7ebca8b4151e09a8105e53142f3fc19d9b221a8af92e030396b",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/UXxMkGEw/versions/fAyLio4o/ensemble-fabric-26.1.2-1.1.1-alpha.jar"
+					"url": "https://cdn.modrinth.com/data/UXxMkGEw/versions/fb82nX9J/ensemble-fabric-26.1.2-1.1.2-alpha.jar"
 				},
-				"filename": "ensemble-fabric-26.1.2-1.1.1-alpha.jar",
+				"filename": "ensemble-fabric-26.1.2-1.1.2-alpha.jar",
 				"name": "Ensemble",
 				"side": "both"
 			},
@@ -488,7 +488,7 @@
 				"side": "both"
 			}
 		},
-		"key": "47c5b9b3bcd82165d9c208a42aa27c53037e5bdbdd04626599ec6c5f04cf2a87"
+		"key": "072da79a85ebbb5773b793536116a39bb58947faa3aad55028cf2fc656797b0a"
 	},
 	"etaerio-eaterie": {
 		"checks": {
@@ -781,8 +781,8 @@
 	},
 	"lights-camera-action": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/lights-camera-action.pw.toml": {
