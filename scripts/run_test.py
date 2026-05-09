@@ -221,7 +221,7 @@ def main():
     # Run the server
     test_injector = Path(test_injector).resolve()
     java_args = [f"-javaagent:{test_injector}"]
-    mc_args = ["--nogui"]
+    mc_args = ["--nogui", "--port", "0"]
 
     sys.stdout.flush() # Prevents python's output from appearing after mc's
     os.chdir(exec_dir)
