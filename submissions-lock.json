@@ -401,16 +401,26 @@
 		"files": {
 			"mods/dual-stance.pw.toml": {
 				"download": {
-					"hash": "fb42a53b39937b2864291caedeb1ac5f3aff1002f8a8ac1ea76469e1ab3cdf910ed746ee7f67a150e18b15247ad4d5d630de1bfee5e57bc34b7095d08fb620ff",
+					"hash": "4f8b97a296b8d34e9b5b566e7258218ebc09b0aac133444da428eb284fd87abdc3a5ae5ad4cda6369c2afb62ee0fab2ba152287ffac9f77e29c04f5269c81131",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/ohOr8f52/dual-stance-0.4.5.jar"
+					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/7SazDaa7/dual-stance-0.4.6.jar"
 				},
-				"filename": "dual-stance-0.4.5.jar",
+				"filename": "dual-stance-0.4.6.jar",
 				"name": "Dual Stance",
+				"side": "both"
+			},
+			"mods/fabric-api.pw.toml": {
+				"download": {
+					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
+					"hash-format": "sha512",
+					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
+				},
+				"filename": "fabric-api-0.148.0+26.1.2.jar",
+				"name": "Fabric API",
 				"side": "both"
 			}
 		},
-		"key": "585d6fb5d97fc30dacab25332bb3640da447f110c39180f87173820c8f04e8b4"
+		"key": "097f8ed8e09f98d75710f50b06478f99c6e89956414b814aae4038a0191e7296"
 	},
 	"enamel": {
 		"checks": {
@@ -575,16 +585,16 @@
 			},
 			"mods/honeypots.pw.toml": {
 				"download": {
-					"hash": "fb284271cfc658f4406847adf4b3ee16640d675752517af47b264234046c45daf7bce91f8edbf3ea199e55745bbf3412e279ea640230ae0820cd1a2479fd7763",
+					"hash": "7d3f4d080e6fd9af219c76cf668cb6aedbfac39cc8f2bd334ac00f5ddac96c68e4c39af073a8ca65215e0e4911bc09838b8c018bd9a6688362579a976441180b",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/Nd9XDQtQ/versions/ZEaMTMMc/honeypots-1.1.2.jar"
+					"url": "https://cdn.modrinth.com/data/Nd9XDQtQ/versions/joRliXSJ/honeypots-1.1.3.jar"
 				},
-				"filename": "honeypots-1.1.2.jar",
+				"filename": "honeypots-1.1.3.jar",
 				"name": "HoneyPots",
 				"side": "both"
 			}
 		},
-		"key": "59e4dbc7b0aadc4ed9b7e0350c06dd9ed973ef174193c8b94dff5a63e70c8b82"
+		"key": "1b649ebd8396a9f51ed35e87a0956eadec58bb9929dc1fdb530982124adcd6f1"
 	},
 	"hotdognalds": {
 		"checks": {
@@ -953,8 +963,8 @@
 	},
 	"off-the-shelf": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/off-the-shelf.pw.toml": {
@@ -1039,7 +1049,7 @@
 	},
 	"petsful": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -1306,11 +1316,11 @@
 			},
 			"mods/street-art.pw.toml": {
 				"download": {
-					"hash": "5724a4dbe2eb8374972d653555c519b8746dd7be732458e365a3dbf47757ee77d2a135c7a9a4f7677031a4a08f6f6aba0be0662674f5189ff1d6a0d083a061d6",
+					"hash": "39cfb65bc01473a30d3170f5ca11eed5952935b60aa9c73e01e78e94071949db28368e88e20f2ab8f0e965d9970249c43d5e0eb6f1e4d6b812ba4dbce35b8cb5",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/XE0TX884/street_art-1.0.5.jar"
+					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/PSchH9Ny/street_art-1.0.6.jar"
 				},
-				"filename": "street_art-1.0.5.jar",
+				"filename": "street_art-1.0.6.jar",
 				"name": "Street Art",
 				"side": "both"
 			},
@@ -1325,12 +1335,12 @@
 				"side": "both"
 			}
 		},
-		"key": "fd436ffbd7ed71dee9ed4a5c050380daeb636d1a32d2ec7bf5d0c28f4ec8bdc1"
+		"key": "c39c0ca8f15dfde90a670654fa607c51097062e1a76374e14a786a7ccfa45442"
 	},
 	"syncope-synecdoche": {
 		"checks": {
 			"claimed": false,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/syncope-synecdoche.pw.toml": {
