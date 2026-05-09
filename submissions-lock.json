@@ -49,7 +49,7 @@
 	},
 	"arbitration": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -193,8 +193,8 @@
 	},
 	"batoru": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/batoru.pw.toml": {
@@ -391,11 +391,11 @@
 		"files": {
 			"mods/dual-stance.pw.toml": {
 				"download": {
-					"hash": "ff269bcb60452a9bb91e4edacd19fbf402e45931ee8f5fb6cde40a43b6967741774ba14f92d36d51af529d9f04dcc2257cc6728b4e00f4c9daef8260ee5d2f47",
+					"hash": "4f8b97a296b8d34e9b5b566e7258218ebc09b0aac133444da428eb284fd87abdc3a5ae5ad4cda6369c2afb62ee0fab2ba152287ffac9f77e29c04f5269c81131",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/49fvd9PX/dual-stance-0.4.4.jar"
+					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/7SazDaa7/dual-stance-0.4.6.jar"
 				},
-				"filename": "dual-stance-0.4.4.jar",
+				"filename": "dual-stance-0.4.6.jar",
 				"name": "Dual Stance",
 				"side": "both"
 			},
@@ -410,7 +410,7 @@
 				"side": "both"
 			}
 		},
-		"key": "ee98573110631643c0325b3d9dec13e9de61c0904b480a74395300f01f49bf56"
+		"key": "097f8ed8e09f98d75710f50b06478f99c6e89956414b814aae4038a0191e7296"
 	},
 	"enamel": {
 		"checks": {
@@ -453,17 +453,17 @@
 	},
 	"ensemble-mod": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/ensemble-mod.pw.toml": {
 				"download": {
-					"hash": "ebf76b7948e75cdcbf28c20a3c6ad43ea2dd10e6a36dee1223881ff68bb16616076bd09f06f52defbcb9cc39aab66cb46d40cfc65363c896517715536345b0be",
+					"hash": "28d043f9de4164a327b660184efdb0f21282daf9e19b414bf830e8f385fbfe83e076608897bcc7ebca8b4151e09a8105e53142f3fc19d9b221a8af92e030396b",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/UXxMkGEw/versions/fAyLio4o/ensemble-fabric-26.1.2-1.1.1-alpha.jar"
+					"url": "https://cdn.modrinth.com/data/UXxMkGEw/versions/fb82nX9J/ensemble-fabric-26.1.2-1.1.2-alpha.jar"
 				},
-				"filename": "ensemble-fabric-26.1.2-1.1.1-alpha.jar",
+				"filename": "ensemble-fabric-26.1.2-1.1.2-alpha.jar",
 				"name": "Ensemble",
 				"side": "both"
 			},
@@ -478,7 +478,7 @@
 				"side": "both"
 			}
 		},
-		"key": "47c5b9b3bcd82165d9c208a42aa27c53037e5bdbdd04626599ec6c5f04cf2a87"
+		"key": "072da79a85ebbb5773b793536116a39bb58947faa3aad55028cf2fc656797b0a"
 	},
 	"etaerio-eaterie": {
 		"checks": {
@@ -530,7 +530,7 @@
 	},
 	"grappling-hooke": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -575,16 +575,16 @@
 			},
 			"mods/honeypots.pw.toml": {
 				"download": {
-					"hash": "fb284271cfc658f4406847adf4b3ee16640d675752517af47b264234046c45daf7bce91f8edbf3ea199e55745bbf3412e279ea640230ae0820cd1a2479fd7763",
+					"hash": "7d3f4d080e6fd9af219c76cf668cb6aedbfac39cc8f2bd334ac00f5ddac96c68e4c39af073a8ca65215e0e4911bc09838b8c018bd9a6688362579a976441180b",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/Nd9XDQtQ/versions/ZEaMTMMc/honeypots-1.1.2.jar"
+					"url": "https://cdn.modrinth.com/data/Nd9XDQtQ/versions/joRliXSJ/honeypots-1.1.3.jar"
 				},
-				"filename": "honeypots-1.1.2.jar",
+				"filename": "honeypots-1.1.3.jar",
 				"name": "HoneyPots",
 				"side": "both"
 			}
 		},
-		"key": "59e4dbc7b0aadc4ed9b7e0350c06dd9ed973ef174193c8b94dff5a63e70c8b82"
+		"key": "1b649ebd8396a9f51ed35e87a0956eadec58bb9929dc1fdb530982124adcd6f1"
 	},
 	"hotdognalds": {
 		"checks": {
@@ -771,8 +771,8 @@
 	},
 	"lights-camera-action": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/lights-camera-action.pw.toml": {
@@ -953,8 +953,8 @@
 	},
 	"off-the-shelf": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/off-the-shelf.pw.toml": {
@@ -1029,7 +1029,7 @@
 	},
 	"petsful": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -1296,11 +1296,11 @@
 			},
 			"mods/street-art.pw.toml": {
 				"download": {
-					"hash": "5724a4dbe2eb8374972d653555c519b8746dd7be732458e365a3dbf47757ee77d2a135c7a9a4f7677031a4a08f6f6aba0be0662674f5189ff1d6a0d083a061d6",
+					"hash": "7c8a03e279e367b2af943b948534558f72502ad51420575e5a01adc650b70af8af083726e176e83f19408012fa27a9553efd523c4f142361f8c8a25a4be7f06a",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/XE0TX884/street_art-1.0.5.jar"
+					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/fOsJ33LA/street_art-1.0.7.jar"
 				},
-				"filename": "street_art-1.0.5.jar",
+				"filename": "street_art-1.0.7.jar",
 				"name": "Street Art",
 				"side": "both"
 			},
@@ -1315,36 +1315,26 @@
 				"side": "both"
 			}
 		},
-		"key": "fd436ffbd7ed71dee9ed4a5c050380daeb636d1a32d2ec7bf5d0c28f4ec8bdc1"
+		"key": "00423095dbc38c01d387b2ebfd519a7165ff3a14064b60997a7ec7b6e4707234"
 	},
 	"syncope-synecdoche": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
-			"mods/fabric-api.pw.toml": {
-				"download": {
-					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
-				},
-				"filename": "fabric-api-0.148.0+26.1.2.jar",
-				"name": "Fabric API",
-				"side": "both"
-			},
 			"mods/syncope-synecdoche.pw.toml": {
 				"download": {
-					"hash": "99eb9c64e5c2b0c2beb4d41fb9162a85aec1789f345aeaa1a91417319a96d845bb70ec4f02f6ea13b36c57994c468813bdc960916f27701a55c46e9f37f1c0b3",
+					"hash": "fba22dc6399fa6a1112c78b3ad31a502e2376bc123a950bad3dbb6949dbb607186cc757eb2fbdb45cba8422c796c05a91b3dd29bc151306b2354c73b398f8385",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/3q979Cd3/versions/oLFGBdxi/syncope-synecdoche-0.1.0.jar"
+					"url": "https://cdn.modrinth.com/data/3q979Cd3/versions/Mb7N0Tie/syncope-synecdoche-0.1.1.jar"
 				},
-				"filename": "syncope-synecdoche-0.1.0.jar",
+				"filename": "syncope-synecdoche-0.1.1.jar",
 				"name": "Syncope Synecdoche",
 				"side": "both"
 			}
 		},
-		"key": "a47fec83b4aea28b69803ab800ec2ea1e67155efb1f04c8ea964166cadb70515"
+		"key": "fe5afe30059d3a424e933c888aa8ec475ca22ee4a5f782dc54f975755f3dd94d"
 	},
 	"under-the-cherry-trees": {
 		"checks": {
