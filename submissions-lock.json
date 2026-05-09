@@ -199,11 +199,11 @@
 		"files": {
 			"mods/batoru.pw.toml": {
 				"download": {
-					"hash": "49efccbeb6061ec85287ca0f78d93bae6b45e12a9cf109188d64c07aa36e84d002464b17df546d6d88dd90c96e876058df89b7c69dff7c15da588f7b83f06181",
+					"hash": "1206328bf7c9bae4487f097a02010cbbf312d3d729b24c457cfe52f7e8317562a961e5b72c91d901fd4ecf92ffdbcfc64d5f22991d10e598b972b7744bdaf9ce",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/4hav09w1/versions/b7ZJLXWi/batoru-0.2.jar"
+					"url": "https://cdn.modrinth.com/data/4hav09w1/versions/KiSrvylF/batoru-0.3.jar"
 				},
-				"filename": "batoru-0.2.jar",
+				"filename": "batoru-0.3.jar",
 				"name": "Batoru Academia",
 				"side": "both"
 			},
@@ -218,7 +218,7 @@
 				"side": "both"
 			}
 		},
-		"key": "d480a887a7d8d74c12578b6e265fe3748467207c72eb309980e3911a5acf5556"
+		"key": "214afc385c1cbc05577aef7d3e9a072a1f09212e59c5c9a3c0d2e38b76622926"
 	},
 	"berry-fantastic": {
 		"checks": {
@@ -356,7 +356,7 @@
 	},
 	"creeper-crush": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": false
 		},
 		"files": {
@@ -401,11 +401,11 @@
 		"files": {
 			"mods/dual-stance.pw.toml": {
 				"download": {
-					"hash": "ee1ba7ab8912d18a05f3367e2b547938ecaaa0d69ad873d89c43030120c0c24d835d037370273397aa41637a2d398f69a01a9dfdd5341284c505e9ce065da4a4",
+					"hash": "ff269bcb60452a9bb91e4edacd19fbf402e45931ee8f5fb6cde40a43b6967741774ba14f92d36d51af529d9f04dcc2257cc6728b4e00f4c9daef8260ee5d2f47",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/dceSO2Rx/dual-stance-0.4.3.jar"
+					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/49fvd9PX/dual-stance-0.4.4.jar"
 				},
-				"filename": "dual-stance-0.4.3.jar",
+				"filename": "dual-stance-0.4.4.jar",
 				"name": "Dual Stance",
 				"side": "both"
 			},
@@ -420,7 +420,7 @@
 				"side": "both"
 			}
 		},
-		"key": "94d9e33f40b34afbdb526cee346fcba950b14f6cde7ab13ca42eeb42c8d242ef"
+		"key": "ee98573110631643c0325b3d9dec13e9de61c0904b480a74395300f01f49bf56"
 	},
 	"enamel": {
 		"checks": {
@@ -598,7 +598,7 @@
 	},
 	"hotdognalds": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -912,16 +912,16 @@
 		"files": {
 			"mods/meowdemic.pw.toml": {
 				"download": {
-					"hash": "8f8c8694a637cf44bc118a5e2f19953305954d56784427c28ad78c084d29d79af6cb32127049685480cccd33ff9a8969d42e08004c15b1394c29e090396cc975",
+					"hash": "a98b6e0ad5e77fd7e49e6732658bcbd6ee4303414b8330f229d4dba56e4d4edbf627397d6e838aff328ce3b9b4ea43a835d561f70aa80a90bae0f77f592026f9",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/yV8oVp1F/versions/yA3H51Vo/meowdemic-1.0.0.jar"
+					"url": "https://cdn.modrinth.com/data/yV8oVp1F/versions/chwxr6sZ/meowdemic-1.0.1.jar"
 				},
-				"filename": "meowdemic-1.0.0.jar",
+				"filename": "meowdemic-1.0.1.jar",
 				"name": "Meowdemic",
 				"side": "both"
 			}
 		},
-		"key": "a94bd468fe85e0c1fb1beb0afcd31362ffc847d05eed9b5b6efa95f06e5b987a"
+		"key": "533f7526e3a5966bdfb9c7d8cf58dea330971a4efc80691616d0bf7b6dbbff63"
 	},
 	"monday-night-mining": {
 		"checks": {
@@ -1152,16 +1152,16 @@
 			},
 			"mods/psithurism.pw.toml": {
 				"download": {
-					"hash": "07d23cfe6a0ed15662f2babd709f05abf66483034aa0713230aa50910fdf61dd6453ae7ad8bd8fcb902dd2019949c4766a8fb7c3e2025ede67c28c1151c3fede",
+					"hash": "6f03736d218789cccbc54ba999afa62c3fe47b26e8c850ffce12175b4dd40d2a817a1f6e6a84bbe5d50cef13d842ec930648e3e83926210eb9fb2711604eebb8",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/3wdNAIW9/versions/jBkLYLXr/psithurism-1.0.3%2B26.1.1.jar"
+					"url": "https://cdn.modrinth.com/data/3wdNAIW9/versions/bFZ7Usht/psithurism-1.0.4%2B26.1.1.jar"
 				},
-				"filename": "psithurism-1.0.3+26.1.1.jar",
+				"filename": "psithurism-1.0.4+26.1.1.jar",
 				"name": "Psithurism",
 				"side": "both"
 			}
 		},
-		"key": "5f2241738c2275f0a25ac70209da3079a66d3ca7cbe6d6e5324a1928eb796297"
+		"key": "9126a72d23c97688ed75be57e86800890aae4331ddc7d45cea18891849a62dbf"
 	},
 	"reliable-gliders": {
 		"checks": {
@@ -1185,7 +1185,7 @@
 	"renmi": {
 		"checks": {
 			"claimed": true,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/renmi.pw.toml": {
@@ -1219,16 +1219,16 @@
 			},
 			"mods/scriboodle.pw.toml": {
 				"download": {
-					"hash": "ca80904dd70d94ddfd18b0c6a06d736b2b799b08cbf06b72651ac9814af2789f4b8340a22014cc00365ee4980f2f4aeb3a3131271b0834125c145da1a7cd1c0f",
+					"hash": "86148b1f54dd2808f4cc5f30afd160d0f1e6c33f15b94825e97758990bb74c3bdda7a41fc01a1b7817a530e50d30b3dfb1ba6df5f3685aba05abaf6089139474",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/1KTbgBgQ/versions/WATOJE5m/scriboodle-0.2.4.jar"
+					"url": "https://cdn.modrinth.com/data/1KTbgBgQ/versions/QDazJ7gk/scriboodle-0.2.5.jar"
 				},
-				"filename": "scriboodle-0.2.4.jar",
+				"filename": "scriboodle-0.2.5.jar",
 				"name": "Scriboodle",
 				"side": "both"
 			}
 		},
-		"key": "32121aec2733c41d5c142878834d1279f50bb62781f01bec35cf6bbf8355f28a"
+		"key": "83920162f0d70fec3f03ae56589c42ae0792d394481a11a9f1affd0a8e6c7fb5"
 	},
 	"slime-time": {
 		"checks": {

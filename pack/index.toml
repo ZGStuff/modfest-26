@@ -181,6 +181,10 @@ file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/glowcase.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hoofprint.pw.toml"
 metafile = true
 
