@@ -1,7 +1,7 @@
 {
 	"absurdly-amazing-alloys": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -569,7 +569,7 @@
 	},
 	"honeypots": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -675,7 +675,7 @@
 	},
 	"kawaii": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -752,8 +752,8 @@
 	},
 	"letters-of-effection": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/fabric-api.pw.toml": {
@@ -830,7 +830,7 @@
 	"lovely-bites": {
 		"checks": {
 			"claimed": true,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/fabric-api.pw.toml": {
@@ -858,8 +858,8 @@
 	},
 	"magical-allayship": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/fabric-api.pw.toml": {
@@ -926,7 +926,7 @@
 	"monday-night-mining": {
 		"checks": {
 			"claimed": false,
-			"tested": false
+			"tested": true
 		},
 		"files": {
 			"mods/monday-night-mining.pw.toml": {
@@ -950,16 +950,16 @@
 		"files": {
 			"mods/mugann.pw.toml": {
 				"download": {
-					"hash": "8058edbcf3df2803dbe1bad870b16b9cd63feab7c6d092750b752c9830df319880b7a53f7152056cefc22f46e2c50714e33d36f1994eb77b5cb69736f28fbef4",
+					"hash": "0b07cc6f2837529e0efe9277800adaeaf551e5dfc74bd7275f0803290666b5f1c4ee0fed695f25a074d9f318952cf7673793dde04231c0061a02063a7131552d",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/9WfB1ZDW/versions/H2SVLLTY/mugann-1.0.9.jar"
+					"url": "https://cdn.modrinth.com/data/9WfB1ZDW/versions/k9WWVQ1p/mugann-1.0.11.jar"
 				},
-				"filename": "mugann-1.0.9.jar",
+				"filename": "mugann-1.0.11.jar",
 				"name": "Mugann",
 				"side": "both"
 			}
 		},
-		"key": "712b04e4c63b5d17ceb1f621e35d2c69f3fbae96ffb2f1afbce51e6b7b335865"
+		"key": "58625c0f138f68f00199b7849b63b6d3aaaab360a8fbc5d0aa2ec40eb05e35c4"
 	},
 	"off-the-shelf": {
 		"checks": {
@@ -1107,7 +1107,7 @@
 	},
 	"productive-cherry-trees": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -1123,16 +1123,16 @@
 			},
 			"mods/productive-cherry-trees.pw.toml": {
 				"download": {
-					"hash": "6220e6334c6cdae459ae97cfcc25b2aef1b0a6c4fbb2536e3ecdb1fddddd077eb820dec7bbf14055d8fe267f648605b7e4c9287381a1bff86e7af163686181dc",
+					"hash": "352b315bdd8e338315c9e153501c10aab242f70ee49cba43741435f1f80516a422303325ba1b2e79d8adba74f5e2276dc54ecd416e545a98b4a1b8a4d7935528",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/rPggdI3G/versions/gEY4oRzf/productive-cherry-trees-0.2.0-alpha%2Bfabric-26.1.jar"
+					"url": "https://cdn.modrinth.com/data/rPggdI3G/versions/64S8FYh8/productive-cherry-trees-0.3.0-alpha%2Bfabric-26.1.jar"
 				},
-				"filename": "productive-cherry-trees-0.2.0-alpha+fabric-26.1.jar",
+				"filename": "productive-cherry-trees-0.3.0-alpha+fabric-26.1.jar",
 				"name": "Productive Cherry Trees",
 				"side": "both"
 			}
 		},
-		"key": "68b82e35fd492fc5736405478e1b9b2202a176c72e6a8c905601cab4ca897d87"
+		"key": "00e65ff31e2b9b55e1e84a7ab53c6eab7bfd90c691fb0694ff3b2fd3f6017f2b"
 	},
 	"psithurism": {
 		"checks": {
@@ -1300,8 +1300,8 @@
 	},
 	"street-art": {
 		"checks": {
-			"claimed": false,
-			"tested": false
+			"claimed": true,
+			"tested": true
 		},
 		"files": {
 			"mods/fabric-api.pw.toml": {
@@ -1316,11 +1316,11 @@
 			},
 			"mods/street-art.pw.toml": {
 				"download": {
-					"hash": "987d1f8480277c2a8cef16f7eae43c6be4c99b6de6d0b932149f16fec2a9755ffa56f7c0342696bf4930f3082a76e2fd353f489ff91937f49c3cf78a33cdf33b",
+					"hash": "5724a4dbe2eb8374972d653555c519b8746dd7be732458e365a3dbf47757ee77d2a135c7a9a4f7677031a4a08f6f6aba0be0662674f5189ff1d6a0d083a061d6",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/LAj1nW2r/street_art-1.0.4.jar"
+					"url": "https://cdn.modrinth.com/data/n0uMUjJI/versions/XE0TX884/street_art-1.0.5.jar"
 				},
-				"filename": "street_art-1.0.4.jar",
+				"filename": "street_art-1.0.5.jar",
 				"name": "Street Art",
 				"side": "both"
 			},
@@ -1335,7 +1335,7 @@
 				"side": "both"
 			}
 		},
-		"key": "ba0ebe6f346d0025dfba1b1cb98f78a2dbe6806297fa190b72bd48b046186a1f"
+		"key": "fd436ffbd7ed71dee9ed4a5c050380daeb636d1a32d2ec7bf5d0c28f4ec8bdc1"
 	},
 	"syncope-synecdoche": {
 		"checks": {
