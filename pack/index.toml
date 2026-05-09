@@ -134,6 +134,10 @@ file = "mods/ballotbox.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/barricade.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/better-log4j-config.pw.toml"
 metafile = true
 
