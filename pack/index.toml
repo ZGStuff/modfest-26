@@ -169,7 +169,15 @@ file = "mods/fabric-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fabrictailor.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
@@ -190,6 +198,10 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mana-attributes.pw.toml"
 metafile = true
 
 [[files]]
@@ -234,6 +246,10 @@ metafile = true
 
 [[files]]
 file = "mods/qomc.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/resource-bar-api.pw.toml"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Mana Attributes"
+filename = "mana-attributes-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1uXUV3Qn/versions/TVjPxhHF/mana-attributes-4.0.0.jar"
+hash-format = "sha512"
+hash = "d03b58f02d171ab5c1e206492933b31e8ce108141ac97f27a7b38718bc9f0caec3323d810512a0e3f2312b9462098bb92db9b280578618f7d1c4eb548774dea3"
+
+[update]
+[update.modrinth]
+mod-id = "1uXUV3Qn"
+version = "TVjPxhHF"
