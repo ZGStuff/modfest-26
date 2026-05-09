@@ -49,7 +49,7 @@
 	},
 	"arbitration": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -401,26 +401,16 @@
 		"files": {
 			"mods/dual-stance.pw.toml": {
 				"download": {
-					"hash": "ff269bcb60452a9bb91e4edacd19fbf402e45931ee8f5fb6cde40a43b6967741774ba14f92d36d51af529d9f04dcc2257cc6728b4e00f4c9daef8260ee5d2f47",
+					"hash": "fb42a53b39937b2864291caedeb1ac5f3aff1002f8a8ac1ea76469e1ab3cdf910ed746ee7f67a150e18b15247ad4d5d630de1bfee5e57bc34b7095d08fb620ff",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/49fvd9PX/dual-stance-0.4.4.jar"
+					"url": "https://cdn.modrinth.com/data/z6Esg6rK/versions/ohOr8f52/dual-stance-0.4.5.jar"
 				},
-				"filename": "dual-stance-0.4.4.jar",
+				"filename": "dual-stance-0.4.5.jar",
 				"name": "Dual Stance",
-				"side": "both"
-			},
-			"mods/fabric-api.pw.toml": {
-				"download": {
-					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
-				},
-				"filename": "fabric-api-0.148.0+26.1.2.jar",
-				"name": "Fabric API",
 				"side": "both"
 			}
 		},
-		"key": "ee98573110631643c0325b3d9dec13e9de61c0904b480a74395300f01f49bf56"
+		"key": "585d6fb5d97fc30dacab25332bb3640da447f110c39180f87173820c8f04e8b4"
 	},
 	"enamel": {
 		"checks": {
@@ -540,7 +530,7 @@
 	},
 	"grappling-hooke": {
 		"checks": {
-			"claimed": false,
+			"claimed": true,
 			"tested": true
 		},
 		"files": {
@@ -1343,28 +1333,18 @@
 			"tested": false
 		},
 		"files": {
-			"mods/fabric-api.pw.toml": {
-				"download": {
-					"hash": "4e9d39150af43869f68b03e91c51618a0d0c34ec7bfd57b515a9031364d35e391985ca1e2349daaa8d6f8fc88e4b96cfa5793bb0f98932ce0b3683fe4a238ce4",
-					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/KAvhN1it/fabric-api-0.148.0%2B26.1.2.jar"
-				},
-				"filename": "fabric-api-0.148.0+26.1.2.jar",
-				"name": "Fabric API",
-				"side": "both"
-			},
 			"mods/syncope-synecdoche.pw.toml": {
 				"download": {
-					"hash": "99eb9c64e5c2b0c2beb4d41fb9162a85aec1789f345aeaa1a91417319a96d845bb70ec4f02f6ea13b36c57994c468813bdc960916f27701a55c46e9f37f1c0b3",
+					"hash": "fba22dc6399fa6a1112c78b3ad31a502e2376bc123a950bad3dbb6949dbb607186cc757eb2fbdb45cba8422c796c05a91b3dd29bc151306b2354c73b398f8385",
 					"hash-format": "sha512",
-					"url": "https://cdn.modrinth.com/data/3q979Cd3/versions/oLFGBdxi/syncope-synecdoche-0.1.0.jar"
+					"url": "https://cdn.modrinth.com/data/3q979Cd3/versions/Mb7N0Tie/syncope-synecdoche-0.1.1.jar"
 				},
-				"filename": "syncope-synecdoche-0.1.0.jar",
+				"filename": "syncope-synecdoche-0.1.1.jar",
 				"name": "Syncope Synecdoche",
 				"side": "both"
 			}
 		},
-		"key": "a47fec83b4aea28b69803ab800ec2ea1e67155efb1f04c8ea964166cadb70515"
+		"key": "fe5afe30059d3a424e933c888aa8ec475ca22ee4a5f782dc54f975755f3dd94d"
 	},
 	"under-the-cherry-trees": {
 		"checks": {
